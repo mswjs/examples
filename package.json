@@ -1,0 +1,19 @@
+{
+  "name": "examples",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "git@github.com:mswjs/examples.git",
+  "author": "Artem Zakharchenko <kettanaito@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "lerna exec --scope=* yarn test"
+  },
+  "devDependencies": {
+    "lerna": "^3.21.0"
+  },
+  "workspaces": {
+    "packages": [
+      "examples/*"
+    ]
+  }
+}
