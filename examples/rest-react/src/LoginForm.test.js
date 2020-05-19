@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, fireEvent, screen } from '@testing-library/react'
 import { setupServer } from 'msw/node'
-import { handlers } from './mock'
+import { handlers } from './mocks'
 import { LoginForm } from './LoginForm'
 
 describe('LoginForm', () => {

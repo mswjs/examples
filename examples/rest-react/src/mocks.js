@@ -1,8 +1,8 @@
-import { rest } from 'msw'
+import { setupWorker, rest } from 'msw'
 
 export const handlers = [
   rest.post('/login', (req, res, ctx) => {
-    const { username } = JSON.parse(req.body)
+    const { username } = req.body
 
     return res(
       ctx.json({
@@ -12,3 +12,5 @@ export const handlers = [
     )
   }),
 ]
+
+export const worker = setupWorker(...handlers)

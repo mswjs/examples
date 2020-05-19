@@ -1,0 +1,29 @@
+{
+  "name": "create-react-app",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "jest-environment-jsdom-sixteen": "^1.0.3",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "^3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jest-environment-jsdom-sixteen",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "resolutions": {
+    "eslint-utils": "1.4.2"
+  }
+}

@@ -24,7 +24,9 @@ export const LoginForm = () => {
       // Perform a POST /login request and send the username
       fetch('/login', {
         method: 'POST',
-        body: JSON.stringify({ username }),
+        body: JSON.stringify({
+          username,
+        }),
       })
         .then((res) => res.json())
         // Update the state with the received response
