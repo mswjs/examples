@@ -38,8 +38,11 @@ export const LoginForm = () => {
   if (userData) {
     return (
       <div>
-        <h1 data-testid="firstname">{userData.firstName}</h1>
-        <p data-testid="username">{userData.username}</p>
+        <h1>
+          <span data-testid="firstName">{userData.firstName}</span>{' '}
+          <span data-testid="lastName">{userData.lastName}</span>
+        </h1>
+        <p data-testid="userId">{userData.id}</p>
       </div>
     )
   }

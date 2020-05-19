@@ -27,10 +27,12 @@ describe('LoginForm', () => {
     })
     fireEvent.click(screen.getByText(/submit/i))
 
-    const firstName = await screen.findByTestId('firstname')
-    const username = await screen.findByTestId('username')
+    const userId = await screen.findByTestId('userId')
+    const firstName = await screen.findByTestId('firstName')
+    const lastName = await screen.findByTestId('lastName')
 
+    expect(userId).toHaveTextContent('f79e82e8-c34a-4dc7-a49e-9fadc0979fda')
     expect(firstName).toHaveTextContent('John')
-    expect(username).toHaveTextContent('johnUser')
+    expect(lastName).toHaveTextContent('Maverick')
   })
 })
