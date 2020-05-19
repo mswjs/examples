@@ -1,0 +1,5 @@
+{
+  "baseUrl": "http://localhost:3001",
+  "integrationFolder": "./src",
+  "testFiles": "**/*.e2e.test.js"
+}
