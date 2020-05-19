@@ -40,7 +40,7 @@ export const LoginForm = () => {
         },
       })
     },
-    [username]
+    [username, logIn]
   )
 
   if (loading) {
@@ -55,10 +55,10 @@ export const LoginForm = () => {
     return (
       <div>
         <h1>
-          <span data-testid="firstName">{data.firstName}</span>{' '}
-          <span data-testid="lastName">{data.lastName}</span>
+          <span data-testid="firstName">{data.user.firstName}</span>{' '}
+          <span data-testid="lastName">{data.user.lastName}</span>
         </h1>
-        <p data-testid="userId">{data.id}</p>
+        <p data-testid="userId">{data.user.id}</p>
       </div>
     )
   }
