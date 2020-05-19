@@ -6,6 +6,7 @@ Example repository that uses [Mock Service Worker](https://github.com/mswjs/msw)
 
 - [**Create React App**](https://create-react-app.dev)
 - [Jest](https://jestjs.io) for running unit tests;
+- [React Testing Library](https://github.com/testing-library/react-testing-library) for unit test assertions;
 - [Cypress](https://cypress.io) for running E2E tests;
 
 ## Getting started
