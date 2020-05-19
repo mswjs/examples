@@ -1,6 +1,6 @@
 # Create React App (REST)
 
-Example repository that uses [Mock Service Worker](https://github.com/mswjs/msw) to mock a REST API for development, unit and E2E testing in Create React App project.
+This repository illustrates how to use [Mock Service Worker](https://github.com/mswjs/msw) to mock a REST API for development, unit and E2E testing in Create React App project.
 
 ## Technologies
 
@@ -37,3 +37,9 @@ $ yarn test:unit
 ```bash
 $ yarn test:e2e
 ```
+
+## Implementation
+
+- [`src/mocks.js`](src/mocks.js) describes request handlers to use.
+- [`src/index.js`](src/index.js) conditionally enables mocking in `development` environment.
+- [`src/setupTests.js`](src/setupTests.js) enables mocking for unit tests via `beforeAll`/`afterAll` hooks.
