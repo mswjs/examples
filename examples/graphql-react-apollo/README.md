@@ -39,7 +39,7 @@ $ yarn test:unit
 $ yarn test:e2e
 ```
 
-## Implementation
+## Key points
 
 - [`src/mocks.js`](src/mocks.js) describes GraphQL operations to mock.
 - [`src/index.js`](src/index.js) conditionally enables mocking in `development` environment.
