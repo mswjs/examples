@@ -4,7 +4,8 @@
   "scripts": {
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook",
-    "test": "jest"
+    "test:storybook": "jest",
+    "test": "start-server-and-test storybook http://localhost:6006 test:storybook"
   },
   "dependencies": {
     "storybook": "^5.3.19"
