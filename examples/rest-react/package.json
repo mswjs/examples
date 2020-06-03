@@ -1,7 +1,6 @@
 {
   "name": "create-react-app",
   "version": "0.0.0",
-  "private": true,
   "dependencies": {
     "cross-env": "^7.0.2",
     "cypress": "^4.5.0",
