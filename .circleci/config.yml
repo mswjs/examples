@@ -1,17 +1,34 @@
-version: 2.1
-orbs:
-  node: circleci/node@1.1.6
+version: 2
 jobs:
-  build-and-test:
-    executor:
-      name: node/default
+  build:
+    docker:
+      - image: cypress/browsers:node12.13.0-chrome80-ff74
+        environment:
+          TERM: xterm
+    working_directory: ~/root
+
     steps:
       - checkout
-      - node/with-cache:
-          steps:
-            - run: yarn
-            - run: yarn test
-workflows:
-    build-and-test:
-      jobs:
-        - build-and-test
+      - restore_cache:
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+            - yarn-packages
+
+      - run:
+          name: Environment
+          command: |
+            node --version
+            npm --version
+            yarn --version
+      - run:
+          name: Installing dependencies
+          command: yarn
+      - save_cache:
+          name: Saving package cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+
+      - run:
+          name: Running tests
+          command: yarn test
