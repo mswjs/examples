@@ -15,7 +15,7 @@
     "msw": "^0.16.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "3.4.0",
     "start-server-and-test": "^1.11.0"
   },
   "scripts": {
