@@ -14,7 +14,7 @@ export const UserProfile = () => {
   }
 
   return (
-    <p>
+    <p data-testid="full-name">
       {user.firstName} {user.lastName}
     </p>
   )

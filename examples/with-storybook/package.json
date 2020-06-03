@@ -3,17 +3,24 @@
   "version": "0.0.0",
   "scripts": {
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "jest"
   },
   "dependencies": {
     "storybook": "^5.3.19"
   },
   "devDependencies": {
     "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
+    "@storybook/addon-storyshots": "^5.3.19",
+    "@storybook/addon-storyshots-puppeteer": "^5.3.19",
     "@storybook/addons": "^5.3.19",
     "@storybook/react": "^5.3.19",
-    "babel-loader": "^8.1.0"
+    "babel-loader": "^8.1.0",
+    "puppeteer": "^3.2.0",
+    "react-test-renderer": "^16.13.1"
   }
 }
