@@ -4,6 +4,7 @@ export default function Home({ book }) {
   const [reviews, setReviews] = useState(null)
 
   const handleGetReviews = useCallback(() => {
+    // Example of a runtime request to the mocked endpoint.
     fetch('/reviews')
       .then((res) => res.json())
       .then(setReviews)
@@ -30,6 +31,8 @@ export default function Home({ book }) {
 }
 
 export async function getServerSideProps() {
+  // Example of a server-side request to a mocked endpoint
+  // (server requests must use absolute URLs).
   const res = await fetch('https://my.backend/book')
   const book = await res.json()
 
