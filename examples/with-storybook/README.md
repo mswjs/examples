@@ -40,8 +40,6 @@ In order to register the Service Worker responsible for API mocking the worker f
 
 > The `-s public` option points to the relative `./public` directory that contains our Service Worker.
 
-### Defer story loading
+### Start the mocking
 
-Registration and activation of the Service Worker is an asynchronous action. However, we don't want our stories to render broken, because the mocking has not yet resolved.
-
-**To defer the rendering of stories create a [`.storybook/preview.js`](.storybook/preview.js) file and await the worker registration there.**
+**To start the mocking before each story, create a [`.storybook/preview.js`](.storybook/preview.js) and call `worker.start()` there.**
