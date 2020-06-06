@@ -10,8 +10,13 @@ import { handlers } from './mocks'
 const server = setupServer(...handlers)
 
 beforeAll(() => {
-  // Enable mocking.
+  // Enable the mocking in tests.
   server.listen()
+})
+
+afterEach(() => {
+  // Reset any runtime handlers tests may use.
+  server.resetHandlers()
 })
 
 afterAll(() => {
