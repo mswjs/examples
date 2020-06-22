@@ -4,4 +4,8 @@ import ApolloClient from 'apollo-boost'
 // in both application runtime and tests.
 export const client = new ApolloClient({
   uri: 'http://localhost:3000/graphql',
+
+  // Use explicit `window.fetch` so tha outgoing requests
+  // are captured and deferred until the Service Worker is ready.
+  fetch: (...args) => fetch(...args),
 })

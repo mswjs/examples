@@ -1,4 +1,4 @@
-import { setupWorker, graphql } from 'msw'
+import { graphql } from 'msw'
 
 export const handlers = [
   // Capture a "Login" mutation
@@ -30,5 +30,3 @@ export const handlers = [
     )
   }),
 ]
-
-export const worker = setupWorker(...handlers)
