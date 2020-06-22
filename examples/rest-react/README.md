@@ -41,6 +41,12 @@ $ yarn test:e2e
 ## Key points
 
 - [`src/mocks.js`](src/mocks.js) describes request handlers to use.
+
+### Browser
+
 - [`src/index.js`](src/index.js) conditionally enables mocking in `development` environment.
-- [`src/setupTests.js`](src/setupTests.js) enables mocking for unit tests via `beforeAll`/`afterAll` hooks.
 - [`public/mockServiceWorker.js`](public/mockServiceWorker.js) the Service Worker, created by running `npx msw init public`.
+
+### NodeJS
+
+- [`src/setupTests.js`](src/setupTests.js) enables mocking for unit tests via `beforeAll`/`afterAll` hooks.
