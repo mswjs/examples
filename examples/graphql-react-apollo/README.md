@@ -42,7 +42,14 @@ $ yarn test:e2e
 ## Key points
 
 - [`src/mocks.js`](src/mocks.js) describes GraphQL operations to mock.
+
+### Browser
+
 - [`src/index.js`](src/index.js) conditionally enables mocking in `development` environment.
-- [`src/setupTests.js`](src/setupTests.js) enables mocking for unit tests via `beforeAll`/`afterAll` hooks.
+- [`src/ApolloClient.js`](src/ApolloClient.js) uses an explicit `fetch` reference in order for requests to be captured and deferred until the Service Worker is ready. Necessary due to Apollo hoisting a native `window.fetch` call, preventing Mock Service Worker from properly capturing it.
 - [`public/mockServiceWorker.js`](public/mockServiceWorker.js) the Service Worker, created by running `npx msw init public`.
+
+### NodeJS
+
+- [`src/setupTests.js`](src/setupTests.js) enables mocking for unit tests via `beforeAll`/`afterAll` hooks.
 
