@@ -29,4 +29,16 @@ export const handlers = [
       })
     )
   }),
+  graphql.query('getUser', (req, res, ctx) => {
+    return res(
+      ctx.data({
+        user: {
+          __typename: 'User',
+          id: 'f79e82e8-c34a-4dc7-a49e-9fadc0979fda',
+          firstName: 'John',
+          lastName: 'Maverick',
+        },
+      })
+    )
+  }),
 ]
