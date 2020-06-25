@@ -50,5 +50,5 @@ $ yarn test:e2e
 
 ### NodeJS
 
-- [`src/mocks/server.js`](src/mocks/server.js) sets up the server to mimic Service Worker behavior in Node.
+- [`src/mocks/server.js`](src/mocks/server.js) sets up the "server" to use the same mocking logic in Node.
 - [`src/setupTests.js`](src/setupTests.js) enables mocking for unit tests via `beforeAll`/`afterAll` hooks.
