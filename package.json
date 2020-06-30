@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "test": "lerna exec --scope=* --concurrency=1 yarn test",
-    "update": "lerna exec --scope=* --concurrency=1 yarn update"
+    "update": "lerna exec --scope=* --concurrency=1 yarn update",
+    "use-packed-msw": "scripts/use-packed-msw.sh"
   },
   "devDependencies": {
     "lerna": "^3.21.0"
