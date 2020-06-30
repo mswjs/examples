@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 tarball_path=$1
 
 echo "Using local tarbal $tarball_path"
