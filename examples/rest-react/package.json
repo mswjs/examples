@@ -1,12 +1,11 @@
 {
   "name": "rest-react-example",
   "version": "0.0.0",
-  "private": true,
   "dependencies": {
     "cross-env": "^7.0.2",
     "cypress": "^4.5.0",
     "jest-environment-jsdom-sixteen": "^1.0.3",
-    "msw": "^0.19.0",
+    "msw": "^0.19.5",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "3.4.0",
