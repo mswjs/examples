@@ -17,3 +17,6 @@ ls -la $package_path
 # Install unpacked tarball to all sub-repositories
 echo "Installing local package in the workspace..."
 yarn workspaces run add file:"$package_path" --no-lockfile
+
+# Update the "mockServiceWorker.js" in all examples
+yarn update
