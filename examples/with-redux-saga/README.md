@@ -1,6 +1,6 @@
-# Create React App (REST) with redux-saga
+# Redux Saga
 
-This repository illustrates how to use [Mock Service Worker](https://github.com/mswjs/msw) to mock a REST API for development with redux-saga, unit and E2E testing in Create React App project.
+This repository illustrates how to use [Mock Service Worker](https://github.com/mswjs/msw) to mock a REST API for development with [`redux-saga`](https://redux-saga.js.org/), unit and E2E testing in Create React App project.
 
 ## Technologies
 
@@ -8,8 +8,7 @@ This repository illustrates how to use [Mock Service Worker](https://github.com/
 - [Jest](https://jestjs.io) for running unit tests;
 - [React Testing Library](https://github.com/testing-library/react-testing-library) for unit test assertions;
 - [Cypress](https://cypress.io) for running E2E tests;
-- [ReduxSaga](https://redux-saga.js.org/)
-- [Redux](https://redux.js.org/)
+- [Redux](https://redux.js.org/) and [Redux Saga](https://redux-saga.js.org/) for state management.
 
 ## Getting started
 
@@ -17,7 +16,7 @@ This repository illustrates how to use [Mock Service Worker](https://github.com/
 $ git clone https://github.com/mswjs/examples.git
 $ cd examples
 $ yarn
-$ cd react-saga
+$ cd with-redux-saga
 ```
 
 ## Running locally

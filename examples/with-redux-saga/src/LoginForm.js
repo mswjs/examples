@@ -1,5 +1,5 @@
-import React, {useState, useCallback} from 'react'
-import {useSelector, useDispatch} from 'react-redux'
+import React, { useState, useCallback } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
 
 export const LoginForm = () => {
   // Store the username so we can reference it in a submit handler
@@ -21,9 +21,9 @@ export const LoginForm = () => {
       // Prevent the default behavior, as we don't want
       // for our page to reload upon submit.
       event.preventDefault()
-      dispatch({type: 'LOGIN_REQUEST', username})
+      dispatch({ type: 'LOGIN_REQUEST', username })
     },
-    [username, dispatch],
+    [username, dispatch]
   )
 
   if (userData) {
