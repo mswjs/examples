@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook",
+    "build": "build-storybook",
     "update": "npx msw init public",
     "test:storybook": "jest",
     "test": "start-server-and-test storybook http://localhost:6006 test:storybook"

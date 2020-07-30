@@ -22,9 +22,10 @@
     "build": "react-scripts build",
     "update": "npx msw init public",
     "cy:run": "cypress run",
-    "test": "yarn test:unit && yarn test:e2e",
+    "test": "yarn test:unit && yarn test:e2e && yarn test:build",
     "test:unit": "react-scripts test --env=jest-environment-jsdom-sixteen",
     "test:e2e": "start-server-and-test start http://localhost:3001 cy:run",
+    "test:build": "",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
