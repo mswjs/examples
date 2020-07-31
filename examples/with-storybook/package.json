@@ -9,7 +9,7 @@
     "test": "start-server-and-test storybook http://localhost:6006 test:storybook"
   },
   "dependencies": {
-    "msw": "^0.20.0",
+    "msw": "latest",
     "storybook": "^5.3.19"
   },
   "devDependencies": {

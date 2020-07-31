@@ -12352,6 +12352,23 @@ msw@^0.20.0:
     statuses "^2.0.0"
     yargs "^15.4.1"
 
+msw@^0.20.1, msw@latest:
+  version "0.20.1"
+  resolved "https://registry.yarnpkg.com/msw/-/msw-0.20.1.tgz#34804ab934905b54a2c5189d360c44faf6801945"
+  integrity sha512-mrQb4LFmZ6KrADb1Hl2T4yQhxwCkhDz/HRRRLl+RgguUBJ+8aqDtXxGo23Eagw+Q4zrWIyJ//fENv4H6GBeTig==
+  dependencies:
+    "@open-draft/until" "^1.0.3"
+    "@types/cookie" "^0.4.0"
+    chalk "^4.1.0"
+    cookie "^0.4.1"
+    graphql "^15.3.0"
+    headers-utils "^1.2.0"
+    node-fetch "^2.6.0"
+    node-match-path "^0.4.4"
+    node-request-interceptor "^0.3.3"
+    statuses "^2.0.0"
+    yargs "^15.4.1"
+
 multicast-dns-service-types@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/multicast-dns-service-types/-/multicast-dns-service-types-1.1.0.tgz#899f11d9686e5e05cb91b35d5f0e63b773cfc901"
