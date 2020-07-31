@@ -11,7 +11,7 @@
     "cypress": "^4.5.0",
     "graphql": "^15.0.0",
     "jest-environment-jsdom-sixteen": "^1.0.3",
-    "msw": "^0.20.0",
+    "msw": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.0",
