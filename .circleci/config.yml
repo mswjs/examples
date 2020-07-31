@@ -28,7 +28,7 @@ jobs:
           key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
-      - update:
+      - run:
           name: Update mockServiceWorker.js
           command: yarn update
       - run:
