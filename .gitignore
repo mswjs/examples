@@ -6,3 +6,4 @@ __*
 msw-v*
 cypress
 package
+mockServiceWorker.js
