@@ -11,6 +11,7 @@
 $ git clone https://github.com/mswjs/examples.git
 $ cd examples
 $ yarn
+$ yarn update
 $ cd examples/with-storybook
 ```
 
