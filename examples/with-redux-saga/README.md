@@ -16,7 +16,6 @@ This repository illustrates how to use [Mock Service Worker](https://github.com/
 $ git clone https://github.com/mswjs/examples.git
 $ cd examples
 $ yarn
-$ yarn update
 $ cd with-redux-saga
 ```
 
