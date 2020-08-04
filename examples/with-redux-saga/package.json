@@ -35,5 +35,9 @@
   ],
   "resolutions": {
     "eslint-utils": "1.4.2"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.21.7",
+    "@testing-library/user-event": "^12.1.0"
   }
 }
