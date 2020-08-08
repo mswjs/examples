@@ -1,0 +1,18 @@
+<div *ngIf="user$ | async as userData; else login">
+  <h1>
+    <span data-testid="firstName">{{ userData.firstName }}</span
+    >&nbsp;
+    <span data-testid="lastName">{{ userData.lastName }}</span>
+  </h1>
+  <p data-testid="userId">{{ userData.id }}</p>
+</div>
+
+<ng-template #login>
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="username">Username:</label>
+      <input id="username" name="username" formControlName="username" />
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</ng-template>

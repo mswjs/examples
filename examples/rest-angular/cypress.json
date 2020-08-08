@@ -1,0 +1,5 @@
+{
+  "baseUrl": "http://localhost:4200",
+  "integrationFolder": "./e2e",
+  "testFiles": "**/*.e2e.test.ts"
+}
