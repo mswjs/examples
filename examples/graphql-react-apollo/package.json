@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "apollo-boost": "^0.4.9",
     "cross-env": "^7.0.2",
-    "cypress": "^4.5.0",
+    "cypress": "^4.12.0",
     "graphql": "^15.0.0",
     "jest-environment-jsdom-sixteen": "^1.0.3",
     "msw": "latest",
