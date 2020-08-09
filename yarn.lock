@@ -14373,9 +14373,9 @@ ms@^2.0.0, ms@^2.1.1:
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 msw@latest:
-  version "0.20.1"
-  resolved "https://registry.yarnpkg.com/msw/-/msw-0.20.1.tgz#34804ab934905b54a2c5189d360c44faf6801945"
-  integrity sha512-mrQb4LFmZ6KrADb1Hl2T4yQhxwCkhDz/HRRRLl+RgguUBJ+8aqDtXxGo23Eagw+Q4zrWIyJ//fENv4H6GBeTig==
+  version "0.20.3"
+  resolved "https://registry.yarnpkg.com/msw/-/msw-0.20.3.tgz#aaafef3775ae2ba35e6ca45590033f9a1f692efe"
+  integrity sha512-UgxuuWWIawGpexjTAOWCNMc/aJy+F+0NsWsj14PM3/gmFbkKNvARgUTIc2dFFx9rYlZWW++GqYARR4sV7bHeEg==
   dependencies:
     "@open-draft/until" "^1.0.3"
     "@types/cookie" "^0.4.0"
