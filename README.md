@@ -17,8 +17,14 @@ Usage examples have a consistent README structure, so it's easier to comprehend 
 
 > Complete examples showcase Mock Service Worker integration on all levels: for development, unit, and E2E tests.
 
+### React
+
 - [REST API with **React**](examples/rest-react)
 - [GraphQL API with **React**](examples/graphql-react-apollo) (Apollo)
+
+### Angular
+
+- [REST API with **Angular**](examples/rest-angular)
 
 ## Scoped examples
 
