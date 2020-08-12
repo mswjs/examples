@@ -46,7 +46,7 @@ $ yarn test:e2e
 
 - [`src/mocks/browser.ts`](src/mocks/browser.ts) sets up the Service Worker.
 - [`src/main.ts`](src/main.ts) conditionally enables mocking in `development` environment.
-- [`src/mockServiceWorker.ts`](src/mockServiceWorker.ts) the Service Worker, created by running `npx msw init src`.
+- [`src/mockServiceWorker.js`](src/mockServiceWorker.js) the Service Worker, created by running `npx msw init src`.
 
 ### NodeJS
 
