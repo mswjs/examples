@@ -6,11 +6,8 @@ import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
-} else {
-  const { worker } = require('./mocks/browser')
-  worker.start()
 }
 
 platformBrowserDynamic()
   .bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+  .catch((err) => console.error(err));
