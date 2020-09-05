@@ -47,7 +47,7 @@ $ yarn test:e2e
 - [`src/mocks/browser.ts`](src/mocks/browser.ts) sets up the Service Worker.
 - [`src/main.ts`](src/main.ts) conditionally enables mocking in `development` environment.
 - [`src/mockServiceWorker.js`](src/mockServiceWorker.js) the Service Worker, created by running `npx msw init src`.
-- add `src/mockServiceWorker.js` to your assets in angular.json file.
+- Add `src/mockServiceWorker.js` file to the `assets` list in your `angular.json` file.
 
 ### NodeJS
 
