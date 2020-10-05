@@ -1,5 +1,5 @@
 import React from 'react'
-import { ApolloProvider } from '@apollo/react-hooks'
+import { ApolloProvider } from '@apollo/client'
 import { render, fireEvent, screen } from '@testing-library/react'
 import { client } from './ApolloClient'
 import { LoginForm } from './LoginForm'

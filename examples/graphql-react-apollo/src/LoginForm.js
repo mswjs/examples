@@ -1,6 +1,5 @@
 import React, { useState, useCallback } from 'react'
-import { useMutation } from '@apollo/react-hooks'
-import { gql } from 'apollo-boost'
+import { gql, useMutation } from '@apollo/client'
 
 const LOG_IN = gql`
   mutation Login($username: String!) {
