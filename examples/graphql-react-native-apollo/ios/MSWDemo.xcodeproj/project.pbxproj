@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* MSWDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MSWDemoTests.m */; };
+		00E356F31AD99517003FC87E /* GraphQLReactNativeApolloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GraphQLReactNativeApolloTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2150B37230096BB9B95FDDE0 /* libPods-MSWDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6E99A2C989D4B0201E793 /* libPods-MSWDemo.a */; };
+		2150B37230096BB9B95FDDE0 /* libPods-GraphQLReactNativeApollo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6E99A2C989D4B0201E793 /* libPods-GraphQLReactNativeApollo.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* MSWDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MSWDemoTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* GraphQLReactNativeApolloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GraphQLReactNativeApolloTests.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		885ADD40143266F7E8763F6E /* libPods-MSWDemo-MSWDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5230160FC9129DCCBBE712 /* libPods-MSWDemo-MSWDemoTests.a */; };
-		A3E08ED9C51ED5A47456CC25 /* libPods-MSWDemo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 905F18A8EDC6162B6F297AE1 /* libPods-MSWDemo-tvOSTests.a */; };
-		DC2EDD50F9732D80726BBDEF /* libPods-MSWDemo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD02146ADF9FC7C563664AA /* libPods-MSWDemo-tvOS.a */; };
+		885ADD40143266F7E8763F6E /* libPods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5230160FC9129DCCBBE712 /* libPods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.a */; };
+		A3E08ED9C51ED5A47456CC25 /* libPods-GraphQLReactNativeApollo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 905F18A8EDC6162B6F297AE1 /* libPods-GraphQLReactNativeApollo-tvOSTests.a */; };
+		DC2EDD50F9732D80726BBDEF /* libPods-GraphQLReactNativeApollo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD02146ADF9FC7C563664AA /* libPods-GraphQLReactNativeApollo-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = MSWDemo;
+			remoteInfo = GraphQLReactNativeApollo;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "MSWDemo-tvOS";
+			remoteInfo = "GraphQLReactNativeApollo-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* MSWDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSWDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* GraphQLReactNativeApolloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphQLReactNativeApolloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* MSWDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSWDemoTests.m; sourceTree = "<group>"; };
-		0C5230160FC9129DCCBBE712 /* libPods-MSWDemo-MSWDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSWDemo-MSWDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1007F78EA667C22A1CF44311 /* Pods-MSWDemo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSWDemo-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MSWDemo-tvOS/Pods-MSWDemo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* MSWDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSWDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MSWDemo/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MSWDemo/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MSWDemo/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MSWDemo/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MSWDemo/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* MSWDemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MSWDemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* MSWDemo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MSWDemo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37BF3E5E6A9BCCF30D065B19 /* Pods-MSWDemo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSWDemo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MSWDemo-tvOSTests/Pods-MSWDemo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		491AF91006ED8118356285A7 /* Pods-MSWDemo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSWDemo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MSWDemo-tvOSTests/Pods-MSWDemo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		50D6E99A2C989D4B0201E793 /* libPods-MSWDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSWDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		524C5F3CB7ABC19A856E75CC /* Pods-MSWDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSWDemo.release.xcconfig"; path = "Target Support Files/Pods-MSWDemo/Pods-MSWDemo.release.xcconfig"; sourceTree = "<group>"; };
-		5EBF28E5CEC121651047A36E /* Pods-MSWDemo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSWDemo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MSWDemo-tvOS/Pods-MSWDemo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MSWDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9037068AC8F01E9AAE235E08 /* Pods-MSWDemo-MSWDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSWDemo-MSWDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-MSWDemo-MSWDemoTests/Pods-MSWDemo-MSWDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		905F18A8EDC6162B6F297AE1 /* libPods-MSWDemo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSWDemo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCD02146ADF9FC7C563664AA /* libPods-MSWDemo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSWDemo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3733624C89F8FA3755836B0 /* Pods-MSWDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSWDemo.debug.xcconfig"; path = "Target Support Files/Pods-MSWDemo/Pods-MSWDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* GraphQLReactNativeApolloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphQLReactNativeApolloTests.m; sourceTree = "<group>"; };
+		0C5230160FC9129DCCBBE712 /* libPods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1007F78EA667C22A1CF44311 /* Pods-GraphQLReactNativeApollo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLReactNativeApollo-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GraphQLReactNativeApollo-tvOS/Pods-GraphQLReactNativeApollo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* GraphQLReactNativeApollo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphQLReactNativeApollo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GraphQLReactNativeApollo/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GraphQLReactNativeApollo/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GraphQLReactNativeApollo/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GraphQLReactNativeApollo/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GraphQLReactNativeApollo/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* GraphQLReactNativeApollo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GraphQLReactNativeApollo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* GraphQLReactNativeApollo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GraphQLReactNativeApollo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BF3E5E6A9BCCF30D065B19 /* Pods-GraphQLReactNativeApollo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLReactNativeApollo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GraphQLReactNativeApollo-tvOSTests/Pods-GraphQLReactNativeApollo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		491AF91006ED8118356285A7 /* Pods-GraphQLReactNativeApollo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLReactNativeApollo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-GraphQLReactNativeApollo-tvOSTests/Pods-GraphQLReactNativeApollo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		50D6E99A2C989D4B0201E793 /* libPods-GraphQLReactNativeApollo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GraphQLReactNativeApollo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524C5F3CB7ABC19A856E75CC /* Pods-GraphQLReactNativeApollo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLReactNativeApollo.release.xcconfig"; path = "Target Support Files/Pods-GraphQLReactNativeApollo/Pods-GraphQLReactNativeApollo.release.xcconfig"; sourceTree = "<group>"; };
+		5EBF28E5CEC121651047A36E /* Pods-GraphQLReactNativeApollo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLReactNativeApollo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-GraphQLReactNativeApollo-tvOS/Pods-GraphQLReactNativeApollo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GraphQLReactNativeApollo/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9037068AC8F01E9AAE235E08 /* Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.debug.xcconfig"; path = "Target Support Files/Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests/Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.debug.xcconfig"; sourceTree = "<group>"; };
+		905F18A8EDC6162B6F297AE1 /* libPods-GraphQLReactNativeApollo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GraphQLReactNativeApollo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD02146ADF9FC7C563664AA /* libPods-GraphQLReactNativeApollo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GraphQLReactNativeApollo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3733624C89F8FA3755836B0 /* Pods-GraphQLReactNativeApollo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLReactNativeApollo.debug.xcconfig"; path = "Target Support Files/Pods-GraphQLReactNativeApollo/Pods-GraphQLReactNativeApollo.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F5A5B446EBC939A14D7DFACF /* Pods-MSWDemo-MSWDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSWDemo-MSWDemoTests.release.xcconfig"; path = "Target Support Files/Pods-MSWDemo-MSWDemoTests/Pods-MSWDemo-MSWDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5A5B446EBC939A14D7DFACF /* Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.release.xcconfig"; path = "Target Support Files/Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests/Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885ADD40143266F7E8763F6E /* libPods-MSWDemo-MSWDemoTests.a in Frameworks */,
+				885ADD40143266F7E8763F6E /* libPods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2150B37230096BB9B95FDDE0 /* libPods-MSWDemo.a in Frameworks */,
+				2150B37230096BB9B95FDDE0 /* libPods-GraphQLReactNativeApollo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC2EDD50F9732D80726BBDEF /* libPods-MSWDemo-tvOS.a in Frameworks */,
+				DC2EDD50F9732D80726BBDEF /* libPods-GraphQLReactNativeApollo-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3E08ED9C51ED5A47456CC25 /* libPods-MSWDemo-tvOSTests.a in Frameworks */,
+				A3E08ED9C51ED5A47456CC25 /* libPods-GraphQLReactNativeApollo-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* MSWDemoTests */ = {
+		00E356EF1AD99517003FC87E /* GraphQLReactNativeApolloTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* MSWDemoTests.m */,
+				00E356F21AD99517003FC87E /* GraphQLReactNativeApolloTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = MSWDemoTests;
+			path = GraphQLReactNativeApolloTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* MSWDemo */ = {
+		13B07FAE1A68108700A75B9A /* GraphQLReactNativeApollo */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = MSWDemo;
+			name = GraphQLReactNativeApollo;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				50D6E99A2C989D4B0201E793 /* libPods-MSWDemo.a */,
-				0C5230160FC9129DCCBBE712 /* libPods-MSWDemo-MSWDemoTests.a */,
-				CCD02146ADF9FC7C563664AA /* libPods-MSWDemo-tvOS.a */,
-				905F18A8EDC6162B6F297AE1 /* libPods-MSWDemo-tvOSTests.a */,
+				50D6E99A2C989D4B0201E793 /* libPods-GraphQLReactNativeApollo.a */,
+				0C5230160FC9129DCCBBE712 /* libPods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.a */,
+				CCD02146ADF9FC7C563664AA /* libPods-GraphQLReactNativeApollo-tvOS.a */,
+				905F18A8EDC6162B6F297AE1 /* libPods-GraphQLReactNativeApollo-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* MSWDemo */,
+				13B07FAE1A68108700A75B9A /* GraphQLReactNativeApollo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* MSWDemoTests */,
+				00E356EF1AD99517003FC87E /* GraphQLReactNativeApolloTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				964675706065650895B678AC /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* MSWDemo.app */,
-				00E356EE1AD99517003FC87E /* MSWDemoTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* MSWDemo-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* MSWDemo-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* GraphQLReactNativeApollo.app */,
+				00E356EE1AD99517003FC87E /* GraphQLReactNativeApolloTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* GraphQLReactNativeApollo-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* GraphQLReactNativeApollo-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		964675706065650895B678AC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E3733624C89F8FA3755836B0 /* Pods-MSWDemo.debug.xcconfig */,
-				524C5F3CB7ABC19A856E75CC /* Pods-MSWDemo.release.xcconfig */,
-				9037068AC8F01E9AAE235E08 /* Pods-MSWDemo-MSWDemoTests.debug.xcconfig */,
-				F5A5B446EBC939A14D7DFACF /* Pods-MSWDemo-MSWDemoTests.release.xcconfig */,
-				1007F78EA667C22A1CF44311 /* Pods-MSWDemo-tvOS.debug.xcconfig */,
-				5EBF28E5CEC121651047A36E /* Pods-MSWDemo-tvOS.release.xcconfig */,
-				37BF3E5E6A9BCCF30D065B19 /* Pods-MSWDemo-tvOSTests.debug.xcconfig */,
-				491AF91006ED8118356285A7 /* Pods-MSWDemo-tvOSTests.release.xcconfig */,
+				E3733624C89F8FA3755836B0 /* Pods-GraphQLReactNativeApollo.debug.xcconfig */,
+				524C5F3CB7ABC19A856E75CC /* Pods-GraphQLReactNativeApollo.release.xcconfig */,
+				9037068AC8F01E9AAE235E08 /* Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.debug.xcconfig */,
+				F5A5B446EBC939A14D7DFACF /* Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.release.xcconfig */,
+				1007F78EA667C22A1CF44311 /* Pods-GraphQLReactNativeApollo-tvOS.debug.xcconfig */,
+				5EBF28E5CEC121651047A36E /* Pods-GraphQLReactNativeApollo-tvOS.release.xcconfig */,
+				37BF3E5E6A9BCCF30D065B19 /* Pods-GraphQLReactNativeApollo-tvOSTests.debug.xcconfig */,
+				491AF91006ED8118356285A7 /* Pods-GraphQLReactNativeApollo-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* MSWDemoTests */ = {
+		00E356ED1AD99517003FC87E /* GraphQLReactNativeApolloTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MSWDemoTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GraphQLReactNativeApolloTests" */;
 			buildPhases = (
 				92DD4D6C5F97CDFEEF39FD8E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = MSWDemoTests;
-			productName = MSWDemoTests;
-			productReference = 00E356EE1AD99517003FC87E /* MSWDemoTests.xctest */;
+			name = GraphQLReactNativeApolloTests;
+			productName = GraphQLReactNativeApolloTests;
+			productReference = 00E356EE1AD99517003FC87E /* GraphQLReactNativeApolloTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* MSWDemo */ = {
+		13B07F861A680F5B00A75B9A /* GraphQLReactNativeApollo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MSWDemo" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GraphQLReactNativeApollo" */;
 			buildPhases = (
 				2CD814C1191B95F171B8BF54 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = MSWDemo;
-			productName = MSWDemo;
-			productReference = 13B07F961A680F5B00A75B9A /* MSWDemo.app */;
+			name = GraphQLReactNativeApollo;
+			productName = GraphQLReactNativeApollo;
+			productReference = 13B07F961A680F5B00A75B9A /* GraphQLReactNativeApollo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* MSWDemo-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* GraphQLReactNativeApollo-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MSWDemo-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GraphQLReactNativeApollo-tvOS" */;
 			buildPhases = (
 				BDB18DCC99909642B26DD4C2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "MSWDemo-tvOS";
-			productName = "MSWDemo-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* MSWDemo-tvOS.app */;
+			name = "GraphQLReactNativeApollo-tvOS";
+			productName = "GraphQLReactNativeApollo-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* GraphQLReactNativeApollo-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* MSWDemo-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* GraphQLReactNativeApollo-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MSWDemo-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GraphQLReactNativeApollo-tvOSTests" */;
 			buildPhases = (
 				83CB8085A8C7708237F4DD88 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "MSWDemo-tvOSTests";
-			productName = "MSWDemo-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* MSWDemo-tvOSTests.xctest */;
+			name = "GraphQLReactNativeApollo-tvOSTests";
+			productName = "GraphQLReactNativeApollo-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* GraphQLReactNativeApollo-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MSWDemo" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GraphQLReactNativeApollo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* MSWDemo */,
-				00E356ED1AD99517003FC87E /* MSWDemoTests */,
-				2D02E47A1E0B4A5D006451C7 /* MSWDemo-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* MSWDemo-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* GraphQLReactNativeApollo */,
+				00E356ED1AD99517003FC87E /* GraphQLReactNativeApolloTests */,
+				2D02E47A1E0B4A5D006451C7 /* GraphQLReactNativeApollo-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* GraphQLReactNativeApollo-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -392,7 +392,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MSWDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GraphQLReactNativeApollo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,7 +419,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MSWDemo-MSWDemoTests/Pods-MSWDemo-MSWDemoTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests/Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -428,7 +428,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSWDemo-MSWDemoTests/Pods-MSWDemo-MSWDemoTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests/Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		83CB8085A8C7708237F4DD88 /* [CP] Check Pods Manifest.lock */ = {
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MSWDemo-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GraphQLReactNativeApollo-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MSWDemo-MSWDemoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -490,7 +490,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MSWDemo-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GraphQLReactNativeApollo-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -503,7 +503,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MSWDemo/Pods-MSWDemo-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GraphQLReactNativeApollo/Pods-GraphQLReactNativeApollo-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -512,7 +512,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MSWDemo/Pods-MSWDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraphQLReactNativeApollo/Pods-GraphQLReactNativeApollo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* MSWDemoTests.m in Sources */,
+				00E356F31AD99517003FC87E /* GraphQLReactNativeApolloTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* MSWDemoTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* GraphQLReactNativeApolloTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* MSWDemo */;
+			target = 13B07F861A680F5B00A75B9A /* GraphQLReactNativeApollo */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* MSWDemo-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* GraphQLReactNativeApollo-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9037068AC8F01E9AAE235E08 /* Pods-MSWDemo-MSWDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 9037068AC8F01E9AAE235E08 /* Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MSWDemoTests/Info.plist;
+				INFOPLIST_FILE = GraphQLReactNativeApolloTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSWDemo.app/MSWDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQLReactNativeApollo.app/GraphQLReactNativeApollo";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5A5B446EBC939A14D7DFACF /* Pods-MSWDemo-MSWDemoTests.release.xcconfig */;
+			baseConfigurationReference = F5A5B446EBC939A14D7DFACF /* Pods-GraphQLReactNativeApollo-GraphQLReactNativeApolloTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = MSWDemoTests/Info.plist;
+				INFOPLIST_FILE = GraphQLReactNativeApolloTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +645,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSWDemo.app/MSWDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQLReactNativeApollo.app/GraphQLReactNativeApollo";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3733624C89F8FA3755836B0 /* Pods-MSWDemo.debug.xcconfig */;
+			baseConfigurationReference = E3733624C89F8FA3755836B0 /* Pods-GraphQLReactNativeApollo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = MSWDemo/Info.plist;
+				INFOPLIST_FILE = GraphQLReactNativeApollo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = MSWDemo;
+				PRODUCT_NAME = GraphQLReactNativeApollo;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 524C5F3CB7ABC19A856E75CC /* Pods-MSWDemo.release.xcconfig */;
+			baseConfigurationReference = 524C5F3CB7ABC19A856E75CC /* Pods-GraphQLReactNativeApollo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = MSWDemo/Info.plist;
+				INFOPLIST_FILE = GraphQLReactNativeApollo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = MSWDemo;
+				PRODUCT_NAME = GraphQLReactNativeApollo;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1007F78EA667C22A1CF44311 /* Pods-MSWDemo-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 1007F78EA667C22A1CF44311 /* Pods-GraphQLReactNativeApollo-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MSWDemo-tvOS/Info.plist";
+				INFOPLIST_FILE = "GraphQLReactNativeApollo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MSWDemo-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GraphQLReactNativeApollo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EBF28E5CEC121651047A36E /* Pods-MSWDemo-tvOS.release.xcconfig */;
+			baseConfigurationReference = 5EBF28E5CEC121651047A36E /* Pods-GraphQLReactNativeApollo-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MSWDemo-tvOS/Info.plist";
+				INFOPLIST_FILE = "GraphQLReactNativeApollo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MSWDemo-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GraphQLReactNativeApollo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37BF3E5E6A9BCCF30D065B19 /* Pods-MSWDemo-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 37BF3E5E6A9BCCF30D065B19 /* Pods-GraphQLReactNativeApollo-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MSWDemo-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "GraphQLReactNativeApollo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MSWDemo-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GraphQLReactNativeApollo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSWDemo-tvOS.app/MSWDemo-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQLReactNativeApollo-tvOS.app/GraphQLReactNativeApollo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 491AF91006ED8118356285A7 /* Pods-MSWDemo-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 491AF91006ED8118356285A7 /* Pods-GraphQLReactNativeApollo-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "MSWDemo-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "GraphQLReactNativeApollo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MSWDemo-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GraphQLReactNativeApollo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSWDemo-tvOS.app/MSWDemo-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphQLReactNativeApollo-tvOS.app/GraphQLReactNativeApollo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MSWDemoTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GraphQLReactNativeApolloTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MSWDemo" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GraphQLReactNativeApollo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MSWDemo-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GraphQLReactNativeApollo-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MSWDemo-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GraphQLReactNativeApollo-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MSWDemo" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GraphQLReactNativeApollo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "MSWDemo-tvOS.app"
-               BlueprintName = "MSWDemo-tvOS"
-               ReferencedContainer = "container:MSWDemo.xcodeproj">
+               BuildableName = "GraphQLReactNativeApollo-tvOS.app"
+               BlueprintName = "GraphQLReactNativeApollo-tvOS"
+               ReferencedContainer = "container:GraphQLReactNativeApollo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "MSWDemo-tvOSTests.xctest"
-               BlueprintName = "MSWDemo-tvOSTests"
-               ReferencedContainer = "container:MSWDemo.xcodeproj">
+               BuildableName = "GraphQLReactNativeApollo-tvOSTests.xctest"
+               BlueprintName = "GraphQLReactNativeApollo-tvOSTests"
+               ReferencedContainer = "container:GraphQLReactNativeApollo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "MSWDemo-tvOS.app"
-            BlueprintName = "MSWDemo-tvOS"
-            ReferencedContainer = "container:MSWDemo.xcodeproj">
+            BuildableName = "GraphQLReactNativeApollo-tvOS.app"
+            BlueprintName = "GraphQLReactNativeApollo-tvOS"
+            ReferencedContainer = "container:GraphQLReactNativeApollo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "MSWDemo-tvOS.app"
-            BlueprintName = "MSWDemo-tvOS"
-            ReferencedContainer = "container:MSWDemo.xcodeproj">
+            BuildableName = "GraphQLReactNativeApollo-tvOS.app"
+            BlueprintName = "GraphQLReactNativeApollo-tvOS"
+            ReferencedContainer = "container:GraphQLReactNativeApollo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "MSWDemo.app"
-               BlueprintName = "MSWDemo"
-               ReferencedContainer = "container:MSWDemo.xcodeproj">
+               BuildableName = "GraphQLReactNativeApollo.app"
+               BlueprintName = "GraphQLReactNativeApollo"
+               ReferencedContainer = "container:GraphQLReactNativeApollo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "MSWDemoTests.xctest"
-               BlueprintName = "MSWDemoTests"
-               ReferencedContainer = "container:MSWDemo.xcodeproj">
+               BuildableName = "GraphQLReactNativeApolloTests.xctest"
+               BlueprintName = "GraphQLReactNativeApolloTests"
+               ReferencedContainer = "container:GraphQLReactNativeApollo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "MSWDemo.app"
-            BlueprintName = "MSWDemo"
-            ReferencedContainer = "container:MSWDemo.xcodeproj">
+            BuildableName = "GraphQLReactNativeApollo.app"
+            BlueprintName = "GraphQLReactNativeApollo"
+            ReferencedContainer = "container:GraphQLReactNativeApollo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "MSWDemo.app"
-            BlueprintName = "MSWDemo"
-            ReferencedContainer = "container:MSWDemo.xcodeproj">
+            BuildableName = "GraphQLReactNativeApollo.app"
+            BlueprintName = "GraphQLReactNativeApollo"
+            ReferencedContainer = "container:GraphQLReactNativeApollo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

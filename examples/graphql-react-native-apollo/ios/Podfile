@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'MSWDemo' do
+target 'GraphQLReactNativeApollo' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'MSWDemoTests' do
+  target 'GraphQLReactNativeApolloTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'MSWDemo' do
   end
 end
 
-target 'MSWDemo-tvOS' do
-  # Pods for MSWDemo-tvOS
+target 'GraphQLReactNativeApollo-tvOS' do
+  # Pods for GraphQLReactNativeApollo-tvOS
 
-  target 'MSWDemo-tvOSTests' do
+  target 'GraphQLReactNativeApollo-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

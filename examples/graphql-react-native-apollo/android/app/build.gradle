@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.mswdemo"
+        applicationId "com.GraphQLReactNativeApollo"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
