@@ -1,12 +1,9 @@
 {
   "name": "with-karma",
   "version": "0.0.0",
-  "type": "module",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "karma start karma.conf.cjs"
+    "update": "npx msw init test",
+    "test": "karma start"
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -17,7 +14,7 @@
     "karma-mocha-reporter": "^2.0.4",
     "karma-webpack": "^4.0.2",
     "mocha": "^8.2.1",
-    "msw": "^0.21.3",
+    "msw": "latest",
     "webpack": "^4.44.2"
   }
 }

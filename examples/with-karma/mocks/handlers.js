@@ -1,8 +1,16 @@
-// handlers.js
 const { rest } = require('msw')
 
 export const handlers = [
-  rest.get('/foo', async (response, request, context) =>
-    response(context.text('foo')),
-  ),
+  rest.post('/login', (req, res, ctx) => {
+    const { username } = req.body
+
+    return res(
+      ctx.json({
+        id: 'f79e82e8-c34a-4dc7-a49e-9fadc0979fda',
+        username,
+        firstName: 'John',
+        lastName: 'Maverick',
+      }),
+    )
+  }),
 ]

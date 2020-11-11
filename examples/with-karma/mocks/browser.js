@@ -1,4 +1,3 @@
-// worker.js
 const { setupWorker } = require('msw')
 import { handlers } from './handlers'
 
