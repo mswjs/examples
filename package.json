@@ -16,6 +16,9 @@
   "workspaces": {
     "packages": [
       "examples/*"
+    ],
+    "nohoist": [
+      "**/karma*"
     ]
   }
 }
