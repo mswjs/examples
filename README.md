@@ -33,3 +33,5 @@ Usage examples have a consistent README structure, so it's easier to comprehend 
 - [Usage with **NextJS**](https://github.com/vercel/next.js/tree/canary/examples/with-msw)
 - [Usage with **Storybook**](examples/with-storybook)
 - [Usage with **Redux Saga**](examples/with-redux-saga)
+- [Usage with **Karma**](examples/with-karma)
+
