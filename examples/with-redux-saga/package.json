@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "cross-env": "^7.0.2",
-    "cypress": "^4.12.0",
+    "cypress": "^6.3.0",
     "jest-environment-jsdom-sixteen": "^1.0.3",
     "msw": "latest",
     "react": "^16.7.0",
