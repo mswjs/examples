@@ -18,7 +18,8 @@
       "examples/*"
     ],
     "nohoist": [
-      "**/karma*"
+      "**/karma*",
+      "**/ts-jest*"
     ]
   }
 }
