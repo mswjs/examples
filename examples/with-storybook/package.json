@@ -2,7 +2,7 @@
   "name": "with-storybook",
   "version": "0.0.0",
   "scripts": {
-    "storybook": "start-storybook -p 6006 -s public",
+    "storybook": "start-storybook -h localhost -p 6006 -s public",
     "build-storybook": "build-storybook",
     "update": "npx msw init public",
     "test:storybook": "jest",
@@ -10,19 +10,19 @@
   },
   "dependencies": {
     "msw": "latest",
-    "storybook": "^6.0.0-rc.29"
+    "storybook": "^6.1.16"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.1",
-    "@babel/preset-env": "^7.10.2",
-    "@babel/preset-react": "^7.10.1",
-    "@storybook/addon-actions": "^6.0.0-rc.29",
-    "@storybook/addon-links": "^6.0.0-rc.29",
-    "@storybook/addon-storyshots": "^6.0.0-rc.29",
-    "@storybook/addon-storyshots-puppeteer": "^6.0.0-rc.29",
-    "@storybook/addons": "^6.0.0-rc.29",
-    "@storybook/react": "^6.0.0-rc.29",
-    "babel-loader": "^8.1.0",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.16",
+    "@storybook/addon-links": "^6.1.16",
+    "@storybook/addon-storyshots": "^6.1.16",
+    "@storybook/addon-storyshots-puppeteer": "^6.1.16",
+    "@storybook/addons": "^6.1.16",
+    "@storybook/react": "^6.1.16",
+    "babel-loader": "^8.2.2",
     "puppeteer": "^3.2.0",
     "react-test-renderer": "^16.13.1"
   }
