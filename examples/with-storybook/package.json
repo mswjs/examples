@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "storybook": "start-storybook -h localhost -p 6006 -s public",
-    "build-storybook": "build-storybook",
-    "update": "npx msw init public",
+    "build-storybook": "build-storybook -s public",
+    "update": "npx msw init public --no-save",
     "test:storybook": "jest",
     "test": "echo 0"
   },

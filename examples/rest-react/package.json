@@ -14,7 +14,7 @@
   "scripts": {
     "start": "cross-env PORT=3001 react-scripts start",
     "build": "react-scripts build",
-    "update": "npx msw init public",
+    "update": "npx msw init public --no-save",
     "cy:run": "cypress run",
     "test": "yarn test:unit && yarn test:e2e",
     "test:unit": "react-scripts test --env=jest-environment-jsdom-sixteen",

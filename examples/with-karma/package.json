@@ -2,7 +2,7 @@
   "name": "with-karma",
   "version": "0.0.0",
   "scripts": {
-    "update": "npx msw init test",
+    "update": "npx msw init test --no-save",
     "test": "karma start"
   },
   "devDependencies": {
