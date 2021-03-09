@@ -41,7 +41,7 @@ $ yarn test:e2e
 
 ## Key points
 
-- [`src/mocks.js`](src/mocks.js) describes GraphQL operations to mock.
+- [`src/mocks/handlers.js`](src/mocks/handlers.js) describes GraphQL operations to mock.
 
 ### Browser
 
