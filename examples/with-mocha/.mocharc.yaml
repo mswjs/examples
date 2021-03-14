@@ -1,0 +1,5 @@
+require:
+  - 'test/registerModules.js'
+  - 'test/extendExpect.js'
+file:
+  - 'test/setupMocha.js'

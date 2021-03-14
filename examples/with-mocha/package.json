@@ -1,0 +1,27 @@
+{
+  "name": "with-mocha",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha --timeout 10000 src/**/*.test.js",
+    "test:watch": "cross-env NODE_ENV=test mocha --timeout 10000 -w src/**/*.test.js"
+  },
+  "dependencies": {
+    "@babel/preset-react": "7.12.13",
+    "@babel/register": "7.13.8",
+    "@testing-library/dom": "7.29.6",
+    "@testing-library/jest-dom": "5.11.9",
+    "@testing-library/react": "11.2.5",
+    "babel-preset-react-app": "10.0.0",
+    "cross-env": "7.0.3",
+    "expect": "26.6.2",
+    "isomorphic-fetch": "3.0.0",
+    "jsdom": "16.4.0",
+    "jsdom-global": "3.0.2",
+    "localstorage-polyfill": "^1.0.1",
+    "mocha": "8.3.0",
+    "msw": "0.27.0",
+    "path": "0.12.7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}
