@@ -1,4 +1,4 @@
-# Karma
+# Mocha
 
 Usage example of [Mock Service Worker](https://github.com/mswjs/msw) with Mocha.
 
