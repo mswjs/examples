@@ -10,18 +10,10 @@ function App() {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        pagination: {
-          pageSize: 10,
-          pageNo: 0,
-          sortedColumn: 'createdBy',
-          sortedType: 'asc',
-        },
+        sample: 'value',
       }),
     })
-      .then(async (response) => {
-        console.log('Fetch complete: ', await response.json())
-        setFetched(true)
-      })
+      .then(() => setFetched(true))
       .catch((error) => {
         console.error('Failed to fetch: ', error)
       })

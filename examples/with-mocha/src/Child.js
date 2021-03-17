@@ -20,7 +20,6 @@ function Child() {
     })
       .then(async (response) => {
         const result = await response.json()
-        console.log('Fetch complete: ', result)
         setFetched(true)
         setResult(result)
       })

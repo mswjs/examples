@@ -1,8 +1,8 @@
 import React from 'react'
-import { render, screen, waitFor, cleanup } from '@testing-library/react'
+import { render, screen, waitFor } from '@testing-library/react'
 import { rest } from 'msw'
 import Child from './Child'
-import mswServer from '../mocks/server'
+import server from '../mocks/server'
 
 const mockedResult = {
   msgCode: 0,
@@ -15,11 +15,6 @@ const mockedResult = {
   },
 }
 
-afterEach(async () => {
-  cleanup()
-  mswServer.resetHandlers()
-})
-
 describe('Child tests', () => {
   it('renders Child without crashing', async () => {
     render(<Child />)
@@ -30,7 +25,7 @@ describe('Child tests', () => {
   })
 
   it('fetches an overriden handler and renders the result', async () => {
-    mswServer.use(
+    server.use(
       rest.post('http://example.com/api/getChildList', (req, res, ctx) => {
         return res(
           ctx.set('access-control-allow-origin', '*'),

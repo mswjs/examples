@@ -3,13 +3,13 @@ const server = require('../mocks/server')
 
 before(() => {
   server.listen()
-  console.log(`msw server started!`)
   server.printHandlers()
 })
 
 afterEach(() => {
-  // Reset any modified handlers and cleanup tests
+  // Reset any modified handlers
   server.resetHandlers()
+  // Note: RTL should automatically clean up tests, but that doesn't appear to be happening, so we're enforcing it here.
   cleanup()
 })
 
