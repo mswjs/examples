@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "msw": "latest",
+    "msw-storybook-addon": "latest",
     "storybook": "^6.1.16"
   },
   "devDependencies": {
