@@ -1,0 +1,23 @@
+{
+  "name": "with-jest",
+  "version": "0.0.0",
+  "description": "Raw testing setup for React, MSW, and Jest",
+  "author": "Artem Zakharchenko <kettanaito@gmail.com>",
+  "homepage": "https://github.com/mswjs/examples#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mswjs/examples.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^13.1.9",
+    "babel-preset-react-app": "^10.0.0",
+    "jest": "^26.6.3",
+    "whatwg-fetch": "^3.6.2"
+  }
+}
