@@ -10,7 +10,8 @@
     "url": "git+https://github.com/mswjs/examples.git"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "update": "exit 0"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
