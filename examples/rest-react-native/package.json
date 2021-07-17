@@ -4,10 +4,14 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "android:release": "react-native run-android --variant release",
     "ios": "react-native run-ios",
+    "ios:release": "react-native run-ios --configuration Release",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "pods": "bundle install && cd ios/ && bundle exec pod install",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "verifyPrettier": "npx prettier --check ."
   },
   "dependencies": {
     "react": "17.0.1",
