@@ -1,0 +1,54 @@
+{
+  "name": "with-graphql-codegen-2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.3.21",
+    "@graphql-codegen/cli": "^1.21.7",
+    "@graphql-codegen/typed-document-node": "^1.18.10",
+    "@graphql-codegen/typescript": "^1.23.0",
+    "@graphql-codegen/typescript-operations": "^1.18.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^13.1.9",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "graphql": "^15.5.1",
+    "msw": "^0.32.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "generate": "graphql-codegen",
+    "update": "yarn msw init ./public --no-save"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "msw": {
+    "workerDirectory": "./public"
+  }
+}
