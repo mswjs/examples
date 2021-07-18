@@ -2,6 +2,7 @@ import React, {useState, useCallback} from 'react';
 import {StyleSheet, TouchableOpacity} from 'react-native';
 import {Text, TextInput, View} from 'react-native';
 import {UserData} from './api/api.data';
+import {login} from './api/endpoints';
 
 const LoginForm = () => {
   // Store the username so we can reference it in a submit handler
@@ -20,7 +21,7 @@ const LoginForm = () => {
   // Handle a submit event of the form
   const handleFormSubmit = useCallback(() => {
     // Perform a POST /login request and send the username
-    fetch('/login', {
+    fetch(login, {
       method: 'POST',
       body: JSON.stringify({
         username,
