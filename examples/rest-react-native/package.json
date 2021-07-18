@@ -10,7 +10,9 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "pods": "bundle install && cd ios/ && bundle exec pod install",
     "start": "react-native start",
-    "test": "jest",
+    "test": "yarn test:unit && yarn test:e2e",
+    "test:unit": "jest",
+    "test:e2e": "detox build --configuration ios && detox test --configuration ios --cleanup",
     "verifyPrettier": "npx prettier --check ."
   },
   "dependencies": {
