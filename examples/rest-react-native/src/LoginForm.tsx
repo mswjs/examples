@@ -36,6 +36,7 @@ const LoginForm = () => {
     <View>
       <View style={styles.inputRow}>
         <TextInput
+          testID={'LoginTextInput'}
           onChangeText={handleUsernameChange}
           onSubmitEditing={handleFormSubmit}
           placeholder={'Enter your username'}
