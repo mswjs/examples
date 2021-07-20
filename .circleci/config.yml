@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cypress/browsers:node12.13.0-chrome80-ff74
+      - image: cypress/browsers:node12.19.0-chrome86-ff82
         environment:
           TERM: xterm
     working_directory: ~/root
