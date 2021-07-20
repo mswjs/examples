@@ -2,7 +2,7 @@
   <div class="form">
     <div v-if="userData">
       <h1>
-        <span data-testid="firstName">{{ userData.firstName }}</span>
+        <span data-testid="firstName">{{ userData.firstName }}</span>{{ }}
         <span data-testid="lastName">{{ userData.lastName }}</span>
       </h1>
       <p data-testid="userId">{{ userData.id }}</p>
