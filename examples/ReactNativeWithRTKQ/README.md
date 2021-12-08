@@ -3,10 +3,12 @@ This repository illustrates how to use [Mock Service Worker](https://mswjs.io/) 
 
 Note that since React Native does not execute in a browser environment, you cannot run a Service Worker alongside your application. You can use msw with React Native only for NodeJS integration.
 
-## Prerequisites
-- [yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/),
-- [node.js](https://nodejs.org/),
-- [React Native CLI](https://reactnative.dev/docs/environment-setup) environment
+## Technologies
+- [**React Native CLI**](https://reactnative.dev/docs/environment-setup) environment
+- [Jest](https://jestjs.io) for running unit tests
+- [React Native Testing Library](https://callstack.github.io/react-native-testing-library/) for unit test assertions
+- [yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
+- [node.js](https://nodejs.org/)
 
 ## Getting started
 
@@ -30,16 +32,21 @@ These instructions will get you a copy of the project up and running on your loc
       - or with yarn  
    `yarn install`
    2. Create `.env` file under the root directory of the project ([see example](#env-file-example))
-   3. Start or plug your virtual or physical device
-   4. Start React Native  
+
+## Running locally
+   1. Start your virtual or plug or physical device
+   2. Start React Native  
    `yarn start`
-   5. Start app  
+   3. Start app  
    `yarn android`
 
-
-## Running the tests
--   Run tests in the interactive watch mode: \
-    `yarn test`
+## Tests
+### Unit tests
+1. Run tests in the interactive watch mode
+   - with npm  
+   `npm test`
+   - or with yarn  
+   `yarn test`
 
 ## Key points
  - [`src/store.ts`](src/store.ts) redux store
