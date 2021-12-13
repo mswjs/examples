@@ -4,13 +4,17 @@
 /node_modules
 /.pnp
 .pnp.js
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
 
 # testing
 /coverage
-/cypress
+public/mockServiceWorker.js
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store

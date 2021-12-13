@@ -7,7 +7,7 @@ This repository illustrates how to use [Mock Service Worker](https://github.com/
 - [**Create React App**](https://create-react-app.dev)
 - [Jest](https://jestjs.io) for running unit tests;
 - [React Testing Library](https://github.com/testing-library/react-testing-library) for unit test assertions;
-- [Cypress](https://cypress.io) for running E2E tests;
+- [Playwright](https://playwright.dev) for running E2E tests;
 
 ## Getting started
 
@@ -21,7 +21,7 @@ $ cd rest-react
 ## Running locally
 
 ```bash
-$ yarn start
+yarn start
 ```
 
 ## Tests
@@ -29,26 +29,27 @@ $ yarn start
 ### Unit tests
 
 ```bash
-$ yarn test:unit
+yarn test
 ```
 
 ### E2E tests
 
 ```bash
-$ yarn test:e2e
+yarn e2e
+yarn e2e:report
 ```
 
 ## Key points
 
-- [`src/mocks/handlers.js`](src/mocks/handlers.js) describes request handlers to use.
+- [`src/mocks/handlers.msw.ts`](src/mocks/handlers.msw.ts) describes request handlers to use.
 
 ### Browser
 
-- [`src/mocks/browser.js`](src/mocks/browser.js) sets up the Service Worker.
-- [`src/index.js`](src/index.js) conditionally enables mocking in `development` environment.
-- [`public/mockServiceWorker.js`](public/mockServiceWorker.js) the Service Worker, created by running `npx msw init public`.
+- [`src/mocks/browser.msw.ts`](src/mocks/browser.msw.ts) sets up the Service Worker.
+- [`src/mocks/index.ts`](src/mocks/index.ts) conditionally enables mocking in `development` environment.
+- [`public/mockServiceWorker.js`](public/mockServiceWorker.js) the Service Worker, created by running `msw init public`.
 
 ### NodeJS
 
-- [`src/mocks/server.js`](src/mocks/server.js) sets up the "server" to use the same mocking logic in Node.
-- [`src/setupTests.js`](src/setupTests.js) enables mocking for unit tests via `beforeAll`/`afterAll` hooks.
+- [`src/mocks/server.msw.ts`](src/mocks/server.msw.ts) sets up the "server" to use the same mocking logic in Node.
+- [`src/setupTests.ts`](src/setupTests.ts) enables mocking for unit tests via `beforeAll`/`afterAll` hooks.
