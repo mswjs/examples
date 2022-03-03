@@ -3,7 +3,9 @@ import { worker } from '../mocks/browser'
 
 describe('User', function () {
   this.beforeAll(async () => {
-    await worker.start()
+    // See https://github.com/mswjs/examples/issues/56#issuecomment-856521932
+    const registration = await worker.start();
+    await registration.update();
   })
 
   this.afterEach(() => {
