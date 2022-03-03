@@ -17514,6 +17514,11 @@ ms@2.1.2, ms@^2.0.0, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
+msw-pact@0.8.0-alpha-01:
+  version "0.8.0-alpha-01"
+  resolved "https://registry.yarnpkg.com/msw-pact/-/msw-pact-0.8.0-alpha-01.tgz#23f7450ddb13958165f7e7c0200b828c54cf985b"
+  integrity sha512-fJBuygnrzJe9k4agUrciZCU1au6DG+C+OhM+qhdvCLM9Wp2SwWRJ5x7BB4/lFA8W8cjsdYdjmBTMhokF4hz2Qg==
+
 msw-pact@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/msw-pact/-/msw-pact-0.7.0.tgz#8531b84ed7a41fe5833c8c9a03fe6e29afcac0b8"
