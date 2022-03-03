@@ -5,15 +5,28 @@ import 'whatwg-fetch'
 import '@testing-library/jest-dom'
 
 import { server } from './src/mocks/server'
+import { setupMswPact } from "msw-pact";
+
+const mswPact = setupMswPact({
+  server,
+  options: { consumer: "pactflow-example-consumer", providers: { ['pactflow-example-provider']: ['login'] } },
+});
 
 beforeAll(() => {
   server.listen()
 })
 
+beforeEach(() => {
+  mswPact.newTest();
+});
+
 afterEach(() => {
+  mswPact.verifyTest();
   server.resetHandlers()
 })
 
-afterAll(() => {
+afterAll(async () => {
+  await mswPact.writeToFile(); // writes the pacts to a file
+  mswPact.clear();
   server.close()
 })

@@ -7,3 +7,4 @@ msw-v*
 cypress
 package
 storybook-static
+msw_generated_pacts/
