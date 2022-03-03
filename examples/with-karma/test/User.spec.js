@@ -1,5 +1,11 @@
 const { expect } = require('chai')
 import { worker } from '../mocks/browser'
+import { setupMswPact } from "msw-pact";
+
+const mswPact = setupMswPact({
+  worker,
+  options: { consumer: "pactflow-example-consumer", providers: { ['pactflow-example-provider']: ['login'] } },
+});
 
 describe('User', function () {
   this.beforeAll(async () => {
@@ -8,11 +14,18 @@ describe('User', function () {
     await registration.update();
   })
 
+  this.beforeEach(() => {
+    mswPact.newTest();
+  });
+
   this.afterEach(() => {
+    mswPact.verifyTest();
     worker.resetHandlers()
   })
 
-  this.afterAll(() => {
+  this.afterAll(async() => {
+    // await mswPact.writeToFile(); // writes the pacts to a file
+    mswPact.clear();
     worker.stop()
   })
 
