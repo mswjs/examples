@@ -18,7 +18,7 @@ const mockedName = mockedResponse[0].first_name;
 // message while testing the components that use the useQuery hook.
 // Warning: "Jest did not exit one second after the test run has completed."
 beforeEach(() => {
-  jest.useFakeTimers('legacy');
+  jest.useFakeTimers();
 });
 
 afterEach(() => {
