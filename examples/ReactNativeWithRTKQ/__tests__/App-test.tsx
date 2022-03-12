@@ -14,9 +14,6 @@ import {rest} from 'msw';
 const {API_BASE_URL} = Config;
 const mockedName = mockedResponse[0].first_name;
 
-// Fake timers used as a workaround to avoid the jest warning
-// message while testing the components that use the useQuery hook.
-// Warning: "Jest did not exit one second after the test run has completed."
 beforeEach(() => {
   jest.useFakeTimers();
 });
