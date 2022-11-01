@@ -3,7 +3,7 @@ import { gql, useMutation } from '@apollo/client'
 
 const LOG_IN = gql`
   mutation Login($username: String!) {
-    user {
+    user(username: $username) {
       id
       firstName
       lastName
