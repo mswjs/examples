@@ -1,0 +1,13 @@
+<div>
+  <p id="greeting" *ngIf="user$ | async as user">Hello, {{ user.firstName }}!</p>
+  <div>
+    <ng-container *ngIf="movies$ | async as movies">
+      <ul id="movies" *ngIf="movies.length > 0">
+        <li *ngFor="let movie of movies">
+          <p>{{ movie.title }}</p>
+        </li>
+      </ul>
+    </ng-container>
+    <button (click)="onFetchMoviesClick()">Fetch movies</button>
+  </div>
+</div>

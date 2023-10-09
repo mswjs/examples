@@ -1,9 +1,3 @@
 node_modules
-*.DS_Store
-__*
-*-error.log
-*-debug.log
-msw-v*
-cypress
-package
-storybook-static
+.turbo
+build

@@ -1,0 +1,139 @@
+name: examples
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  angular:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.12.1
+      - run: pnpm install --filter with-angular
+      - name: Integration tests
+        run: pnpm test:integration
+        working-directory: ./examples/with-angular
+      - name: E2E tests
+        run: pnpm test:e2e
+        working-directory: ./examples/with-angular
+
+  remix:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.12.1
+      - run: pnpm install --filter with-remix
+      - name: E2E tests
+        run: pnpm test:e2e
+        working-directory: ./examples/with-remix
+
+  svelte:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.12.1
+      - run: pnpm install --filter with-svelte
+      - name: E2E tests
+        run: pnpm test:e2e
+        working-directory: ./examples/with-svelte
+
+  vue:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.12.1
+      - run: pnpm install --filter with-vue
+      - name: Integration tests
+        run: pnpm test:integration
+        working-directory: ./examples/with-vue
+      - name: E2E tests
+        run: pnpm test:e2e
+        working-directory: ./examples/with-vue
+
+  jest:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.12.1
+      - run: pnpm install --filter with-jest
+      - run: pnpm test --filter with-jest
+
+  vitest:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.12.1
+      - run: pnpm install --filter with-vitest
+      - run: pnpm test --filter with-vitest
+
+  vitest-cjs:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.12.1
+      - run: pnpm install --filter with-vitest-cjs
+      - run: pnpm test --filter with-vitest-cjs
+
+  playwright:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.12.1
+      - run: pnpm install --filter with-playwright
+      - run: pnpm test --filter with-playwright
+
+  karma:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.12.1
+      - run: pnpm install --filter with-karma
+      - run: pnpm test --filter with-karma

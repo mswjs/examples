@@ -1,0 +1,12 @@
+{
+  "name": "with-vitest-cjs",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "jsdom": "^21.1.1",
+    "msw": "0.0.0-fetch.rc-20",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
+  }
+}
