@@ -3,14 +3,14 @@
 module.exports = function (config) {
   config.set({
     basePath: './test',
-    frameworks: ['mocha', 'chai'],
+    frameworks: [ 'chai', 'mocha', 'webpack'],
     files: ['*.js'],
     proxies: {
-      '/mockServiceWorker.js': '/base/mockServiceWorker.js',
+      '/mockServiceWorker.js': '/base/mockServiceWorker.js'
     },
     exclude: [],
     preprocessors: {
-      '*.js': ['webpack'],
+      "*.test.js": ['webpack']
     },
     webpack: {
       mode: 'development',
@@ -21,7 +21,7 @@ module.exports = function (config) {
       'karma-chrome-launcher',
       'karma-mocha',
       'karma-mocha-reporter',
-      'karma-webpack',
+      'karma-webpack'
     ],
     port: 9876,
     colors: true,
@@ -29,9 +29,9 @@ module.exports = function (config) {
     customLaunchers: {
       chrome_ci: {
         base: 'ChromeHeadless',
-        flags: ['--headless', '--no-sandbox'],
-      },
+        flags: ['--headless', '--no-sandbox']
+      }
     },
-    singleRun: true,
+    singleRun: true
   })
 }

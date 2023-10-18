@@ -1,20 +1,21 @@
 {
   "name": "with-karma",
-  "version": "0.0.0",
   "scripts": {
-    "update": "npx msw init test --no-save",
     "test": "karma start"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "karma": "^5.2.3",
+    "chai": "^4.3.7",
+    "karma": "^6.4.2",
     "karma-chai": "^0.1.0",
-    "karma-chrome-launcher": "^3.1.0",
+    "karma-chrome-launcher": "^3.2.0",
     "karma-mocha": "^2.0.1",
-    "karma-mocha-reporter": "^2.0.4",
-    "karma-webpack": "^4.0.2",
-    "mocha": "^8.2.1",
-    "msw": "latest",
-    "webpack": "^4.44.2"
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-webpack": "^5.0.0",
+    "mocha": "^10.2.0",
+    "msw": "0.0.0-fetch.rc-20",
+    "webpack": "^5.81.0"
+  },
+  "msw": {
+    "workerDirectory": "test"
   }
 }

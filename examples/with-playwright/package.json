@@ -1,0 +1,17 @@
+{
+  "name": "with-playwright",
+  "scripts": {
+    "dev": "web-dev-server --root-dir ./app --node-resolve --watch",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.33.0",
+    "@web/dev-server": "^0.2.1",
+    "msw": "0.0.0-fetch.rc-20",
+    "playwright": "^1.33.0",
+    "typescript": "^5.0.4"
+  },
+  "msw": {
+    "workerDirectory": "app"
+  }
+}

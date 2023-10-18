@@ -1,37 +1,35 @@
-# Usage examples
+# Examples
 
-Collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw) library.
+A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).
 
-### Example structure
+### JavaScript frameworks
 
-Usage examples have a consistent README structure, so it's easier to comprehend and cross-reference them.
+- [Angular](./examples/with-angular) (Jest, Cypress)
+- Next.js
+- React Native
+- [Remix](./examples/with-remix) (Playwright)
+- SolidJS
+- [Svelte](./examples/with-svelte/) (Vitest, Playwright)
+- [Vue](./examples/with-vue) (Vitest, Cypress)
 
-**Each example always has the following sections:**
+### Test frameworks
 
-1. "_Getting started_", a list of instructions to get this specific example running on your local machine.
-1. "_Key points_", highlights of the implementation necessary to achieve the example. Include exact file references and a brief explanation.
+- Cypress
+- [Jest](./examples/with-jest)
+- [Karma](./examples/with-karma)
+- [Playwright](./examples/with-playwright)
+- [Vitest](./examples/with-vitest) / [Vitest (CommonJS)](./examples/with-vitest-cjs)
 
----
+### Other tools
 
-## Full examples
+- Storybook
 
-> Complete examples showcase Mock Service Worker integration on all levels: for development, unit, and E2E tests.
+## Reading examples
 
-### React
+Each example is a standalone repository featuring the usage of MSW with a certain framework or tool. Follow the instructions written in the `README.md` of respective examples to integrate MSW with those particular technologies. Some examples have separate instructions for client-side and server-side integrations. You can choose either or _both_, depending on where you wish to gain control over the network with MSW. **We highly recommend implementing both client-side and server-side interception** to guarantee seamless development and testing experience.
 
-- [REST API with **React**](examples/rest-react)
-- [GraphQL API with **React**](examples/graphql-react-apollo) (Apollo)
+## Cloning examples
 
-### Angular
+Each example can be forked immediately with CodeSandbox. To do so, click on the "Edit on CodeSandbox" button in the `README.md` of the respective example. This will load it in the cloud, allowing you to experiment with the integration and create reproduction cases easier.
 
-- [REST API with **Angular**](examples/rest-angular)
-
-## Scoped examples
-
-> Scoped examples illustrate the usage of Mock Service Worker with particular libraries or frameworks.
-
-- [Usage with **NextJS**](https://github.com/vercel/next.js/tree/canary/examples/with-msw)
-- [Usage with **Storybook**](examples/with-storybook)
-- [Usage with **Redux Saga**](examples/with-redux-saga)
-- [Usage with **Karma**](examples/with-karma)
-
+![Edit in CodeSandbox example](./edit-in-codesandbox.jpg)
