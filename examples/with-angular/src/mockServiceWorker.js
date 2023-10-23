@@ -2,13 +2,14 @@
 /* tslint:disable */
 
 /**
- * Mock Service Worker (0.0.0-fetch.rc-13).
+ * Mock Service Worker (2.0.0).
  * @see https://github.com/mswjs/msw
  * - Please do NOT modify this file.
  * - Please do NOT serve this file on production.
  */
 
-const INTEGRITY_CHECKSUM = 'b24acb1451c726c44a3a37a0b8092d67'
+const INTEGRITY_CHECKSUM = '0877fcdc026242810f5bfde0d7178db4'
+const IS_MOCKED_RESPONSE = Symbol('isMockedResponse')
 const activeClientIds = new Set()
 
 self.addEventListener('install', function () {
@@ -86,7 +87,6 @@ self.addEventListener('message', async function (event) {
 
 self.addEventListener('fetch', function (event) {
   const { request } = event
-  const accept = request.headers.get('accept') || ''
 
   // Bypass navigation requests.
   if (request.mode === 'navigate') {
@@ -107,29 +107,8 @@ self.addEventListener('fetch', function (event) {
   }
 
   // Generate unique request ID.
-  const requestId = Math.random().toString(16).slice(2)
-
-  event.respondWith(
-    handleRequest(event, requestId).catch((error) => {
-      if (error.name === 'NetworkError') {
-        console.warn(
-          '[MSW] Successfully emulated a network error for the "%s %s" request.',
-          request.method,
-          request.url,
-        )
-        return
-      }
-
-      // At this point, any exception indicates an issue with the original request/response.
-      console.error(
-        `\
-[MSW] Caught an exception from the "%s %s" request (%s). This is probably not a problem with Mock Service Worker. There is likely an additional logging output above.`,
-        request.method,
-        request.url,
-        `${error.name}: ${error.message}`,
-      )
-    }),
-  )
+  const requestId = crypto.randomUUID()
+  event.respondWith(handleRequest(event, requestId))
 })
 
 async function handleRequest(event, requestId) {
@@ -154,6 +133,7 @@ async function handleRequest(event, requestId) {
           type: 'RESPONSE',
           payload: {
             requestId,
+            isMockedResponse: IS_MOCKED_RESPONSE in response,
             type: responseClone.type,
             status: responseClone.status,
             statusText: responseClone.statusText,
@@ -268,15 +248,6 @@ async function getResponse(event, client, requestId) {
     case 'MOCK_NOT_FOUND': {
       return passthrough()
     }
-
-    case 'NETWORK_ERROR': {
-      const { name, message } = clientMessage.data
-      const networkError = new Error(message)
-      networkError.name = name
-
-      // Rejecting a "respondWith" promise emulates a network error.
-      throw networkError
-    }
   }
 
   return passthrough()
@@ -302,5 +273,20 @@ function sendToClient(client, message, transferrables = []) {
 }
 
 async function respondWithMock(response) {
-  return new Response(response.body, response)
+  // Setting response status code to 0 is a no-op.
+  // However, when responding with a "Response.error()", the produced Response
+  // instance will have status code set to 0. Since it's not possible to create
+  // a Response instance with status code 0, handle that use-case separately.
+  if (response.status === 0) {
+    return Response.error()
+  }
+
+  const mockedResponse = new Response(response.body, response)
+
+  Reflect.defineProperty(mockedResponse, IS_MOCKED_RESPONSE, {
+    value: true,
+    enumerable: true,
+  })
+
+  return mockedResponse
 }

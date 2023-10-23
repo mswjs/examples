@@ -6,7 +6,7 @@
   },
   "devDependencies": {
     "jsdom": "^21.1.1",
-    "msw": "0.0.0-fetch.rc-20",
+    "msw": "2.0.0",
     "typescript": "^5.0.4",
     "vitest": "^0.30.1"
   }

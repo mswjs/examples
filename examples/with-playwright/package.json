@@ -7,7 +7,7 @@
   "devDependencies": {
     "@playwright/test": "^1.33.0",
     "@web/dev-server": "^0.2.1",
-    "msw": "0.0.0-fetch.rc-20",
+    "msw": "2.0.0",
     "playwright": "^1.33.0",
     "typescript": "^5.0.4"
   },
