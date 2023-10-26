@@ -30,7 +30,7 @@ npx msw init ./public
 touch mocks/browser.ts
 ```
 
-See [`mocks/browser.ts`](./mocks/browser.ts) module for reference.
+See [`mocks/browser.ts`](./app/mocks/browser.ts) module for reference.
 
 ### 3. Defer application rendering
 
@@ -47,7 +47,7 @@ touch mocks/node.ts
 
 > Unlike regular Node.js integrations, we will have to write a bit of custom setup logic so that Remix could digest the changes we make to our handlers while developing the app.
 
-- See [`mocks/node.ts`](./mocks/node.ts) for the server-side setup.
+- See [`mocks/node.ts`](./app/mocks/node.ts) for the server-side setup.
 
 ### 2. Enable mocking
 
