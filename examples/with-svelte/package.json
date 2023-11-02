@@ -22,7 +22,7 @@
     "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-svelte": "^2.27.4",
-    "msw": "2.0.0",
+    "msw": "2.0.2",
     "playwright": "^1.33.0",
     "prettier": "^2.8.8",
     "prettier-plugin-svelte": "^2.10.0",
