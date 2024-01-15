@@ -4,10 +4,9 @@
   "description": "Mock Service Worker usage examples with other frameworks and tools.",
   "author": "Artem Zakharchenko",
   "scripts": {
-    "test": "turbo test"
+    "test": "pnpm test --filter=\"*\""
   },
   "devDependencies": {
-    "turbo": "^1.9.3",
     "typescript": "^5.0.4"
   }
 }
