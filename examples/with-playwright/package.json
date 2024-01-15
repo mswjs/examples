@@ -2,7 +2,8 @@
   "name": "with-playwright",
   "scripts": {
     "dev": "web-dev-server --root-dir ./app --node-resolve --watch",
-    "test": "playwright test"
+    "test": "playwright test",
+    "postinstall": "pnpm exec playwright install"
   },
   "devDependencies": {
     "@playwright/test": "^1.33.0",
