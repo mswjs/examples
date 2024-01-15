@@ -8,7 +8,8 @@
     "start": "remix-serve build",
     "typecheck": "tsc",
     "test": "pnpm test:e2e",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "postinstall": "pnpm exec playwright install"
   },
   "dependencies": {
     "@remix-run/node": "^1.15.0",
@@ -25,7 +26,7 @@
     "@types/react": "^18.0.35",
     "@types/react-dom": "^18.0.11",
     "eslint": "^8.38.0",
-    "msw": "2.0.2",
+    "msw": "2.0.14",
     "playwright": "^1.33.0",
     "typescript": "^4.9.5"
   },
