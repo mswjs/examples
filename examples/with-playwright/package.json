@@ -7,7 +7,7 @@
   "devDependencies": {
     "@playwright/test": "^1.33.0",
     "@web/dev-server": "^0.2.1",
-    "msw": "2.0.2",
+    "msw": "2.0.14",
     "playwright": "^1.33.0",
     "typescript": "^5.0.4"
   },
