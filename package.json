@@ -8,5 +8,6 @@
   },
   "devDependencies": {
     "typescript": "^5.0.4"
-  }
+  },
+  "packageManager": "pnpm@7.20.0"
 }

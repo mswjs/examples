@@ -6,7 +6,7 @@
     "postinstall": "pnpm exec playwright install"
   },
   "devDependencies": {
-    "@playwright/test": "^1.33.0",
+    "@playwright/test": "^1.40.1",
     "@web/dev-server": "^0.2.1",
     "msw": "2.0.14",
     "playwright": "^1.33.0",
