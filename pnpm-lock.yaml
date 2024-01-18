@@ -117,7 +117,7 @@ importers:
 
   examples/with-playwright:
     specifiers:
-      '@playwright/test': ^1.33.0
+      '@playwright/test': ^1.40.1
       '@web/dev-server': ^0.2.1
       msw: 2.0.14
       playwright: ^1.33.0
@@ -6947,7 +6947,7 @@ packages:
   /axios/1.6.5_debug@4.3.4:
     resolution: {integrity: sha512-Ii012v05KEVuUoFWmMW/UQv9aRIc3ZwkWDcM+h5Il8izZCtRVpDUfwpoFf7eOtajT3QiGR4yDUx7lPqHJULgbg==}
     dependencies:
-      follow-redirects: 1.15.5
+      follow-redirects: 1.15.5_debug@4.3.4
       form-data: 4.0.0
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -9864,7 +9864,7 @@ packages:
     resolution: {integrity: sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==}
     dev: true
 
-  /follow-redirects/1.15.5:
+  /follow-redirects/1.15.5_debug@4.3.4:
     resolution: {integrity: sha512-vSFWUON1B+yAw1VN4xMfxgn5fTUiaOzAJCKBwIIgT/+7CuGy9+r+5gITvP62j3RmaD5Ph65UaERdOSRGUzZtgw==}
     engines: {node: '>=4.0'}
     peerDependencies:
@@ -9872,6 +9872,8 @@ packages:
     peerDependenciesMeta:
       debug:
         optional: true
+    dependencies:
+      debug: 4.3.4
     dev: true
 
   /for-each/0.3.3:
@@ -10529,7 +10531,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       eventemitter3: 4.0.7
-      follow-redirects: 1.15.5
+      follow-redirects: 1.15.5_debug@4.3.4
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
