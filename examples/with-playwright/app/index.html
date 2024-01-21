@@ -8,44 +8,6 @@
       globalThis.process = { env: {} }
     </script>
     <script type="module" src="/browser.js"></script>
-    <script type="module">
-      async function main() {
-        await navigator.serviceWorker.ready
-        fetch('/user').then(response => response.json()).then((userData) => {
-          const paragraph = document.createElement('p')
-          paragraph.setAttribute('id', 'greeting')
-          paragraph.textContent = `Hello, ${userData.firstName}!`
-          document.body.appendChild(paragraph)
-        })
-  
-        fetch('https://api.example.com/graphql', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            query: `
-              query ListMovies {
-                movies {
-                  title
-                }
-              }
-            `,
-          }),
-        }).then(response => response.json()).then(({ data }) => {
-          const { movies } = data
-          const moviesList = document.createElement("ul")
-          moviesList.setAttribute('id', 'graphql-response')
-          movies.forEach((movie) => {
-            const movieItem = document.createElement("li")
-            movieItem.textContent = movie.title
-            moviesList.appendChild(movieItem)
-          })
-          document.body.appendChild(moviesList)
-        })
-      }
-
-      main()
-    </script>
+    <script defer src="./main.js"></script>
   </body>
 </html>
