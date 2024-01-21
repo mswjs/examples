@@ -9,7 +9,6 @@
     "@playwright/test": "^1.40.1",
     "@web/dev-server": "^0.2.1",
     "msw": "2.0.14",
-    "playwright": "^1.40.1",
     "typescript": "^5.0.4"
   },
   "msw": {

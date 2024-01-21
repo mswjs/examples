@@ -10,8 +10,7 @@
     <script type="module" src="/browser.js"></script>
     <script type="module">
       async function main() {
-        await window.workerStartPromise
-  
+        await navigator.serviceWorker.ready
         fetch('/user').then(response => response.json()).then((userData) => {
           const paragraph = document.createElement('p')
           paragraph.setAttribute('id', 'greeting')
