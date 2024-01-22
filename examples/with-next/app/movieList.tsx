@@ -27,7 +27,9 @@ export function MovieList() {
       }),
     })
       .then((response) => response.json())
-      .then((movies) => setMovies(movies))
+      .then((response) => {
+        setMovies(response.data.movies)
+      })
       .catch(() => setMovies([]))
   }
 
@@ -37,7 +39,7 @@ export function MovieList() {
       {movies.length > 0 ? (
         <ul>
           {movies.map((movie) => (
-            <li id={movie.id}>{movie.title}</li>
+            <li key={movie.id}>{movie.title}</li>
           ))}
         </ul>
       ) : null}

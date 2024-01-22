@@ -1,11 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 
-if (typeof window === 'undefined') {
-  throw new Error('Is not this a browser-only module?')
-}
-
-export async function MockProvider({
+export function MockProvider({
   children,
 }: Readonly<{
   children: React.ReactNode
