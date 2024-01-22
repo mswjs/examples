@@ -16,6 +16,7 @@ A collection of usage examples of [Mock Service Worker](https://github.com/mswjs
 
 - Cypress
 - [Jest](./examples/with-jest)
+- [Jest (JSDOM)](./examples/with-jest-jsdom)
 - [Karma](./examples/with-karma)
 - [Playwright](./examples/with-playwright)
 - [Vitest](./examples/with-vitest) / [Vitest (CommonJS)](./examples/with-vitest-cjs)
