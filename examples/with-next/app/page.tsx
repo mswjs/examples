@@ -17,7 +17,7 @@ export default async function Home() {
 
   return (
     <main>
-      <p>Hello, {user.firstName}</p>
+      <p id="server-side-greeting">Hello, {user.firstName}!</p>
       <MovieList />
     </main>
   )

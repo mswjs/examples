@@ -35,9 +35,11 @@ export function MovieList() {
 
   return (
     <div>
-      <button onClick={fetchMovies}>Fetch movies</button>
+      <button id="fetch-movies-button" onClick={fetchMovies}>
+        Fetch movies
+      </button>
       {movies.length > 0 ? (
-        <ul>
+        <ul id="movies-list">
           {movies.map((movie) => (
             <li key={movie.id}>{movie.title}</li>
           ))}
