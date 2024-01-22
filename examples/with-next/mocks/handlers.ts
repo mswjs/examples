@@ -4,7 +4,7 @@ import type { User } from '../app/page'
 export const handlers = [
   http.get<never, never, User>('https://api.example.com/user', () => {
     return HttpResponse.json({
-      firstName: 'Kate',
+      firstName: 'John',
       lastName: 'Maverick',
     })
   }),
