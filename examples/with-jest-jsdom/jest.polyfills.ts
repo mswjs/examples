@@ -1,4 +1,3 @@
-// --- START of unnecessary polyfills
 /**
  * @note The block below contains polyfills for Node.js globals
  * required for Jest to function when running JSDOM tests.
@@ -27,4 +26,3 @@ Object.defineProperties(globalThis, {
   Request: { value: Request },
   Response: { value: Response },
 })
-// --- END of unnecessary polyfills

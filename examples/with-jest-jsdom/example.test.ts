@@ -1,3 +1,7 @@
+/**
+ * @jest-environment node
+ */
+
 it('receives a mocked response to a REST API request', async () => {
   const response = await fetch('https://api.example.com/user')
 
