@@ -1,5 +1,6 @@
 import { http, graphql, HttpResponse } from 'msw'
 import type { User } from '../app/page'
+import type { Movie } from '@/app/movieList'
 
 export const handlers = [
   http.get<never, never, User>('https://api.example.com/user', () => {
@@ -8,7 +9,7 @@ export const handlers = [
       lastName: 'Maverick',
     })
   }),
-  graphql.query('ListMovies', () => {
+  graphql.query<{ movies: Array<Movie> }>('ListMovies', () => {
     return HttpResponse.json({
       data: {
         movies: [
