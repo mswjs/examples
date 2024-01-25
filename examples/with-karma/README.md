@@ -2,7 +2,7 @@
 
 [Mock Service Worker](https://github.com/mswjs/msw) usage example with [Karma](https://github.com/karma-runner/karma).
 
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/mswjs/examples-new/tree/main/examples/with-karma)
+[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/mswjs/examples/tree/main/examples/with-karma)
 
 ## Key points
 
