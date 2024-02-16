@@ -1,5 +1,5 @@
 {
-  "name": "with-websocket",
+  "name": "with-websocket-complicated",
   "private": true,
   "sideEffects": false,
   "type": "module",
