@@ -7,6 +7,11 @@ export const handlers = [
       lastName: 'Maverick',
     })
   }),
+  http.get('/product', () => {
+    return HttpResponse.json({
+      name: 'Awesome Product',
+    })
+  }),
   graphql.query('ListMovies', () => {
     return HttpResponse.json({
       data: {
