@@ -8,17 +8,19 @@
       globalThis.process = { env: {} }
     </script>
     <script type="module" src="/browser.js"></script>
-    <script>
+    <script type="module">
+      await window.worker.start()
+
       async function main() {
-        await navigator.serviceWorker.ready
-  
-        fetch('/user').then(response => response.json()).then((userData) => {
-          const paragraph = document.createElement('p')
-          paragraph.setAttribute('id', 'greeting')
-          paragraph.textContent = `Hello, ${userData.firstName}!`
-          document.body.appendChild(paragraph)
-        })
-  
+        fetch('/user')
+          .then((response) => response.json())
+          .then((userData) => {
+            const paragraph = document.createElement('p')
+            paragraph.setAttribute('id', 'greeting')
+            paragraph.textContent = `Hello, ${userData.firstName}!`
+            document.body.appendChild(paragraph)
+          })
+
         fetch('https://api.example.com/graphql', {
           method: 'POST',
           headers: {
@@ -33,17 +35,19 @@
               }
             `,
           }),
-        }).then(response => response.json()).then(({ data }) => {
-          const { movies } = data
-          const moviesList = document.createElement("ul")
-          moviesList.setAttribute('id', 'graphql-response')
-          movies.forEach((movie) => {
-            const movieItem = document.createElement("li")
-            movieItem.textContent = movie.title
-            moviesList.appendChild(movieItem)
-          })
-          document.body.appendChild(moviesList)
         })
+          .then((response) => response.json())
+          .then(({ data }) => {
+            const { movies } = data
+            const moviesList = document.createElement('ul')
+            moviesList.setAttribute('id', 'graphql-response')
+            movies.forEach((movie) => {
+              const movieItem = document.createElement('li')
+              movieItem.textContent = movie.title
+              moviesList.appendChild(movieItem)
+            })
+            document.body.appendChild(moviesList)
+          })
       }
 
       main()
