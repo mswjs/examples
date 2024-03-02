@@ -1,5 +1,5 @@
 /**
- * @jest-environment node
+ * @jest-environment jsdom
  */
 
 it('receives a mocked response to a REST API request', async () => {
@@ -10,6 +10,16 @@ it('receives a mocked response to a REST API request', async () => {
   expect(await response.json()).toEqual({
     firstName: 'John',
     lastName: 'Maverick',
+  })
+})
+
+it('receives a mocked response to a REST API requets to a relative URL', async () => {
+  const response = await fetch('/product')
+
+  expect(response.status).toBe(200)
+  expect(response.statusText).toBe('OK')
+  expect(await response.json()).toEqual({
+    name: 'Awesome Product',
   })
 })
 
