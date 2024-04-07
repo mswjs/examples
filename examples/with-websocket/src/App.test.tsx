@@ -1,10 +1,8 @@
-import { ws } from 'msw'
 import { render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import App from './App.tsx'
 import { server } from './mocks/server.ts'
-
-const api = ws.link('ws://localhost:5173/ws')
+import { api } from './mocks/handlers.ts'
 
 it('sends a chat message', async () => {
   server.use(
