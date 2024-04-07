@@ -5,7 +5,7 @@ import './index.css'
 
 async function enableMocking() {
   if (import.meta.env.VITE_USE_MOCKS) {
-    const { worker } = await import('../mocks/browser.ts')
+    const { worker } = await import('./mocks/browser.ts')
     await worker.start({
       onUnhandledRequest(request, print) {
         const url = new URL(request.url)
