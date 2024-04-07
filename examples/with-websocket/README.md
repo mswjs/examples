@@ -1,6 +1,6 @@
 # WebSocket + MSW
 
-[Mock Service Worker](https://github.com/mswjs/msw) usage example with the global [WHATWG `WebSocket` API](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket).
+[Mock Service Worker](https://github.com/mswjs/msw) usage example with the global [WHATWG `WebSocket` API](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket) on the client and [`ws`](https://github.com/websockets/ws) on the server.
 
 [![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/mswjs/examples/tree/main/examples/with-websocket)
 
