@@ -2,7 +2,7 @@ import { ws } from 'msw'
 import { render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import App from './App.tsx'
-import { server } from '../mocks/server.ts'
+import { server } from './mocks/server.ts'
 
 const api = ws.link('ws://localhost:5173/ws')
 

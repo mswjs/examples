@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   test: {
     globals: true,
+    root: './src',
     setupFiles: ['./vitest.setup.ts'],
     environment: 'happy-dom',
     typecheck: {

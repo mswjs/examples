@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom/vitest'
 import { WebSocket } from 'undici'
-import { server } from './mocks/server.ts'
+import { server } from './src/mocks/server.ts'
 
 Reflect.set(globalThis, 'WebSocket', WebSocket)
 
