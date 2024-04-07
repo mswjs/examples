@@ -1,5 +1,5 @@
 import { FormEventHandler, useState } from 'react'
-import { useWebSocket } from './useWebSocket'
+import { useWebSocket } from './useWebSocket.ts'
 
 export default function App() {
   const [messages, setMessages] = useState<string[]>([])
@@ -30,13 +30,13 @@ export default function App() {
 
   return (
     <div id="chat">
-      <ol>
+      <ol aria-label="messages">
         {messages.map((message, index) => (
           <li key={index}>{message}</li>
         ))}
       </ol>
       <form onSubmit={sendMessage}>
-        <input type="text" name="message" />
+        <input type="text" name="message" aria-label="message" />
         <button type="submit">Send</button>
       </form>
     </div>
