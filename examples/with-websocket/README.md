@@ -24,7 +24,7 @@
 > Node.js v18 does not yet ship a stable global `WebSocket` API. To test a code that relies on that API in Node.js, you have to polyfill the `WebSocket` class using `undici`.
 >
 > 1. Install `undici`.
-> 1. Create [`vitest.setup.ts`](./vitest.setup.ts), import `WebSocket` from `unidici` and set it as the value of `globalThis.WebSocket`.
+> 1. Create [`vitest.setup.ts`](./vitest.setup.ts), import `WebSocket` from `undici` and set it as the value of `globalThis.WebSocket`.
 > 1. In [`vite.config.ts`](./vite.config.ts), set the `test.setupFiles` option to point to the [`vitest.setup.ts`](./vitest.setup.ts) file.
 
 1. Create [`src/mocks/server.ts`](./src/mocks/server.ts) and configure the `server` instance.
