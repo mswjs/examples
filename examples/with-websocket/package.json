@@ -6,8 +6,9 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "pnpm test:integration",
-    "test:integration": "vitest"
+    "test": "pnpm test:integration && pnpm test:e2e",
+    "test:integration": "vitest",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@types/ws": "^8.5.10",
@@ -16,6 +17,7 @@
     "ws": "^8.16.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.43.0",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.2",
     "@testing-library/user-event": "^14.4.3",
