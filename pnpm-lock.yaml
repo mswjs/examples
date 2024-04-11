@@ -475,8 +475,8 @@ importers:
         specifier: ^14.7.0
         version: 14.7.0
       msw:
-        specifier: 2.3.0-ws.rc-3
-        version: 2.3.0-ws.rc-3(typescript@5.3.3)
+        specifier: 2.3.0-ws.rc-5
+        version: 2.3.0-ws.rc-5(typescript@5.3.3)
       tsx:
         specifier: ^4.7.2
         version: 4.7.2
@@ -4698,8 +4698,8 @@ packages:
       strict-event-emitter: 0.5.1
     dev: true
 
-  /@mswjs/interceptors@0.26.15:
-    resolution: {integrity: sha512-HM47Lu1YFmnYHKMBynFfjCp0U/yRskHj/8QEJW0CBEPOlw8Gkmjfll+S9b8M7V5CNDw2/ciRxjjnWeaCiblSIQ==}
+  /@mswjs/interceptors@0.27.1:
+    resolution: {integrity: sha512-V76Q1iKW/FO7j1nln5GN9alyVSKvgjSCm1ZQhxvMk+6IZybjPuE907POQLPhdvcSgp6vFpAPffTakfEnfs+46Q==}
     engines: {node: '>=18'}
     dependencies:
       '@open-draft/deferred-promise': 2.2.0
@@ -14274,8 +14274,8 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /msw@2.3.0-ws.rc-3(typescript@5.3.3):
-    resolution: {integrity: sha512-c93JpP5FZtpL9tMfEWq8OPBC67X2vH5RTLiDt6XwDoV2scD47CP9QYkO1qnjfuwYPb9rPm9fT52R54XCw59vZA==}
+  /msw@2.3.0-ws.rc-5(typescript@5.3.3):
+    resolution: {integrity: sha512-S7RKkJTuhH2VjM1CVtyXVerGMd1pVk4bIkpkaTcLgRRMbqE0JCwYBVgOavroiGLEe4THYNW3g2L7HHlqmZdUHA==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -14289,7 +14289,7 @@ packages:
       '@bundled-es-modules/statuses': 1.0.1
       '@inquirer/confirm': 3.0.0
       '@mswjs/cookies': 1.1.0
-      '@mswjs/interceptors': 0.26.15
+      '@mswjs/interceptors': 0.27.1
       '@open-draft/until': 2.1.0
       '@types/cookie': 0.6.0
       '@types/statuses': 2.0.4
