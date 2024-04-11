@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "test": "pnpm test:integration && pnpm test:e2e",
     "test:integration": "vitest",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "postinstall": "pnpm exec playwright install"
   },
   "dependencies": {
     "@types/ws": "^8.5.10",
