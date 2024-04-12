@@ -7,7 +7,7 @@ A collection of usage examples of [Mock Service Worker](https://github.com/mswjs
 - [Angular](./examples/with-angular) (Jest, Cypress)
 - Next.js
 - React Native
-- [Remix](./examples/with-remix) (Playwright)
+- [Remix](./examples/with-remix) (React, Playwright)
 - SolidJS
 - [Svelte](./examples/with-svelte/) (Vitest, Playwright)
 - [Vue](./examples/with-vue) (Vitest, Cypress)
@@ -20,6 +20,10 @@ A collection of usage examples of [Mock Service Worker](https://github.com/mswjs
 - [Karma](./examples/with-karma)
 - [Playwright](./examples/with-playwright)
 - [Vitest](./examples/with-vitest) / [Vitest (CommonJS)](./examples/with-vitest-cjs)
+
+### Other protocols
+
+- [WHATWG WebSocket + `ws`](./examples/with-websocket/) (React, Vite, Vitest, Playwright)
 
 ### Other tools
 
