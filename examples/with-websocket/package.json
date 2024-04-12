@@ -32,7 +32,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "happy-dom": "^14.7.0",
-    "msw": "2.3.0-ws.rc-5",
+    "msw": "2.3.0-ws.rc-6",
     "tsx": "^4.7.2",
     "typescript": "^5.2.2",
     "undici": "^5.22.0",
