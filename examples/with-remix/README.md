@@ -51,4 +51,4 @@ touch mocks/node.ts
 
 ### 2. Enable mocking
 
-In [`entry.server.tsx`](./app/entry.server.tsx), import the `handlers.ts` and enable mocking by calling `enableApiMocking()` from the `node.ts` setup.
+In [`entry.server.tsx`](./app/entry.server.tsx), import the `handlers.ts` and enable mocking by calling `server.listen()` from the `node.ts` setup.
