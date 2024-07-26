@@ -2,6 +2,15 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { MSWProvider } from './msw-provider'
 
+if (process.env.NEXT_RUNTIME === 'nodejs') {
+  console.log('SERVER LISTEN')
+
+  const { server } = require('../mocks/node')
+  server.listen()
+
+  Reflect.set(fetch, '__FOO', 'YES')
+}
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
