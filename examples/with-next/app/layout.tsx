@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { MockProvider } from './mockProvider'
+import { MSWProvider } from './msw-provider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <MockProvider>{children}</MockProvider>
+        <MSWProvider>{children}</MSWProvider>
       </body>
     </html>
   )
