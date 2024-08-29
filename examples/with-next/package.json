@@ -12,7 +12,7 @@
     "postinstall": "pnpm exec playwright install"
   },
   "dependencies": {
-    "next": "15.0.0-canary.85",
+    "next": "15.0.0-canary.134",
     "react": "19.0.0-rc-14a4699f-20240725",
     "react-dom": "19.0.0-rc-14a4699f-20240725",
     "with-next": "link:"

@@ -1,6 +1,6 @@
 import { http, graphql, HttpResponse } from 'msw'
 import type { User } from '@/app/page'
-import type { Movie } from '@/app/movieList'
+import type { Movie } from '@/app/movie-list'
 
 export const handlers = [
   http.get<never, never, User>('https://api.example.com/user', () => {

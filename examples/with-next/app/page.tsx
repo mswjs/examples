@@ -1,4 +1,4 @@
-import { MovieList } from './movieList'
+import { MovieList } from './movie-list'
 
 export type User = {
   firstName: string
