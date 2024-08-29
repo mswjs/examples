@@ -6,8 +6,6 @@ export type User = {
 }
 
 async function getUser() {
-  console.log('is fetch patched?', Reflect.get(fetch, '__FOO'))
-
   const response = await fetch('https://api.example.com/user')
   const user = (await response.json()) as User
   return user
