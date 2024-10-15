@@ -1,9 +1,19 @@
 import { expect, test } from '@playwright/test';
+import { server } from '../src/mocks/node.js';
+import { http, HttpResponse } from 'msw';
 
 test('renders the user greeting', async ({ page }) => {
+  server.use(
+    http.get('https://api.example.com/user', () => {
+      return HttpResponse.json({
+        firstName: 'Leo',
+        lastName: 'Messi'
+      });
+    })
+  );
   await page.goto('/');
 
-  const greeting = page.getByText('Hello, John!');
+  const greeting = page.getByText('Hello, Leo!');
   await expect(greeting).toBeVisible();
 });
 
