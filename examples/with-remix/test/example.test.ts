@@ -1,10 +1,21 @@
 import { test, expect } from '@playwright/test'
+import { http, HttpResponse } from 'msw'
+import { server } from '~/mocks/node'
 
 test('receives mocked responses in loaders', async ({ page }) => {
+  server.use(
+    http.get('https://api.example.com/user', () => {
+      return HttpResponse.json({
+        firstName: 'Leo',
+        lastName: 'Messi',
+      })
+    }),
+  )
+
   await page.goto('/', { waitUntil: 'networkidle' })
 
   const greeting = page.locator('#server-side-greeting')
-  await expect(greeting).toHaveText('Hello, John!')
+  await expect(greeting).toHaveText('Hello, Leo!')
 })
 
 test('receives mocked responses on browser runtime', async ({ page }) => {
