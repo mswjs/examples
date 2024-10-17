@@ -1,7 +1,8 @@
-module.exports = {
+import type { Config } from 'jest'
+
+const config: Config = {
   preset: 'jest-preset-angular',
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
-  globalSetup: 'jest-preset-angular/global-setup',
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   testEnvironmentOptions: {
     customExportConditions: [''],
   },
@@ -9,6 +10,8 @@ module.exports = {
     Request,
     Response,
     TextEncoder,
-    TextDecoder
+    TextDecoder,
   },
 }
+
+export default config
