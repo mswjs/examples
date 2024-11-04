@@ -6,6 +6,7 @@ const config: Config = {
   testEnvironmentOptions: {
     customExportConditions: [''],
   },
+  testEnvironment: 'jest-fixed-jsdom',
   globals: {
     Request,
     Response,

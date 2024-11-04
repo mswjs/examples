@@ -1,11 +1,15 @@
+/* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
+/* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "./build/spec",
-    "types": ["jest"]
+    "outDir": "./out-tsc/spec",
   },
+  "types": ["jest", "node", "@testing-library/jest-dom"],
+  "files": ["jest.setup.ts"],
   "include": [
     "src/**/*.spec.ts",
-    "src/**/*.d.ts"
-  ],
+    "src/**/*.d.ts",
+    "jest.config.ts"
+  ]
 }
