@@ -14,15 +14,14 @@
   "dependencies": {
     "next": "15.0.0-canary.134",
     "react": "19.0.0-rc-14a4699f-20240725",
-    "react-dom": "19.0.0-rc-14a4699f-20240725",
-    "with-next": "link:"
+    "react-dom": "19.0.0-rc-14a4699f-20240725"
   },
   "devDependencies": {
     "@playwright/test": "^1.41.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "msw": "2.0.14",
+    "msw": "2.4.2",
     "typescript": "^5"
   }
 }
