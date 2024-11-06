@@ -9,10 +9,12 @@
  */
 
 const { TextDecoder, TextEncoder } = require('node:util')
+const { BroadcastChannel } = require('node:worker_threads')
 
 Object.defineProperties(globalThis, {
   TextDecoder: { value: TextDecoder },
   TextEncoder: { value: TextEncoder },
+  BroadcastChannel: { value: BroadcastChannel },
 })
 
 const { Blob } = require('node:buffer')
