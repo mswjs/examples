@@ -19,11 +19,7 @@
             "index": "src/index.html",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets",
-              "src/mockServiceWorker.js"
-            ],
+            "assets": ["src/assets"],
             "styles": [],
             "scripts": [],
             "browser": "src/main.ts"
@@ -48,7 +44,8 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "assets": ["src/mockServiceWorker.js"]
             }
           },
           "defaultConfiguration": "production"
