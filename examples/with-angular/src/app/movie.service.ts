@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core'
+import { inject, Injectable } from '@angular/core'
 import { HttpClient } from '@angular/common/http'
 import { Movie } from './models'
 
@@ -10,7 +10,7 @@ interface GraphQLResponse<T> {
   providedIn: 'root',
 })
 export class MovieService {
-  constructor(private http: HttpClient) {}
+  http = inject(HttpClient)
 
   listMovies() {
     return this.http.post<GraphQLResponse<{ movies: Array<Movie> }>>(

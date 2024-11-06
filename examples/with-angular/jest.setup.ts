@@ -1,4 +1,4 @@
-import 'jest-preset-angular/setup-jest';
+import 'jest-preset-angular/setup-jest'
 import '@testing-library/jest-dom'
 import { server } from './src/mocks/node'
 
