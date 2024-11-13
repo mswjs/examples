@@ -9,5 +9,15 @@
   "devDependencies": {
     "typescript": "^5.0.4"
   },
-  "packageManager": "pnpm@7.20.0"
+  "packageManager": "pnpm@8.15",
+  "msw": {
+    "workerDirectory": [
+      "./examples/with-angular/src",
+      "./examples/with-karma/test",
+      "./examples/with-playwright/app",
+      "./examples/with-remix/public",
+      "./examples/with-svelte/static",
+      "./examples/with-vue/public"
+    ]
+  }
 }

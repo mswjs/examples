@@ -2,7 +2,7 @@
 
 [Mock Service Worker](https://github.com/mswjs/msw) usage example with [Remix](https://github.com/remix-run/remix).
 
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/mswjs/examples-new/tree/main/examples/with-remix)
+[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/mswjs/examples/tree/main/examples/with-remix)
 
 ## General
 
@@ -51,4 +51,4 @@ touch mocks/node.ts
 
 ### 2. Enable mocking
 
-In [`entry.server.tsx`](./app/entry.server.tsx), import the `handlers.ts` and enable mocking by calling `enableApiMocking()` from the `node.ts` setup.
+In [`entry.server.tsx`](./app/entry.server.tsx), import the `handlers.ts` and enable mocking by calling `server.listen()` from the `node.ts` setup.
