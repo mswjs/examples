@@ -13,12 +13,11 @@ Using MSW with JSDOM requires additional configuration. Unfortunately, JSDOM (`j
 
 Please see the setup steps below to properly configure Jest when using in combination with JSDOM.
 
-### Module resolution
+## Custom Jest environment
 
-Opt-out from the browser module resolution in JSDOM by setting the `testEnvironmentOptions.customExportConditions` option in [`jest.config.ts`](./jest.config.ts). This will force JSDOM to use Node.js module resolution, correctly resolving export conditions of third-party packages.
+Use the [`jest-fixed-jsdom`](https://github.com/mswjs/jest-fixed-jsdom) custom environment for your JSDOM tests. That environment is a superset of JSDOM with a few important modifications:
 
-> Despite JSDOM predenting to be a browser environment, your code _still runs in Node.js_. Using the browser module resolution can cause all sorts of import issues with third-party packages that depend on the standard Node.js API.
+- Ensures the module resolution is set to Node.js, not the browser (`customExporConditions`);
+- Restores the global functions and classes present in the browser (e.g. `fetch`, `structuredClone`, etc.).
 
-### Polyfills
-
-Create a [jest.polyfills.ts](./jest.polyfills.ts) file in your project (you can copy it) and include it in the `setupFiles` option in `jest.config.ts`. This will re-add some of the Node.js globals (and browser) missing in JSDOM, like `fetch`, `Request`, `Response`, etc.
+See [`jest.config.ts`](./jest.config.ts) for the configuration reference.
