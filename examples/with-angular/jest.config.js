@@ -1,5 +1,6 @@
 module.exports = {
   preset: 'jest-preset-angular',
+  testEnvironment: 'jest-fixed-jsdom',
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   globalSetup: 'jest-preset-angular/global-setup',
   testEnvironmentOptions: {
@@ -9,6 +10,6 @@ module.exports = {
     Request,
     Response,
     TextEncoder,
-    TextDecoder
+    TextDecoder,
   },
 }
