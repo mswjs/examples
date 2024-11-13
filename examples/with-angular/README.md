@@ -12,3 +12,7 @@
 
 1. Create [`src/mocks/browser.ts`](./src/mocks/browser.ts) and configure the `worker` instance.
 1. In [`src/main.ts`](./src/main.ts), start the worker instance. Defer your application's rendering by implementing a `prepareApp()` function.
+
+## Tests with Jest
+
+If you are using Jest, make sure to provide [`jest-fixed-jsdom`](https://github.com/mswjs/jest-fixed-jsdom) as the custom `testEnvironment` in your [`jest.config.js`](./jest.config.js) file.
