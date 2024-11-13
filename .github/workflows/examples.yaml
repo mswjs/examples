@@ -150,3 +150,16 @@ jobs:
           version: 8.15
       - run: pnpm install --filter with-karma
       - run: pnpm test --filter with-karma
+
+  next:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.12.1
+      - run: pnpm install --filter with-next
+      - run: pnpm test --filter with-next
