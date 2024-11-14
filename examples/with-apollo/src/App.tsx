@@ -42,8 +42,6 @@ export default function App() {
     const terminateSubscription = subscribeToMore({
       document: BOOKS_SUBSCRIPTION,
       updateQuery(prev, { subscriptionData }) {
-        console.warn('SUBSCRIPTION!')
-
         // @ts-ignore
         const nextBook = subscriptionData.data.bookAdded
         return Object.assign({}, prev, {
