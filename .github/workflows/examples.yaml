@@ -16,7 +16,7 @@ jobs:
           node-version: 18
       - uses: pnpm/action-setup@v4
         with:
-          version: 8.15
+          version: 9.15
       - run: pnpm install --filter with-angular
       - name: Integration tests
         run: pnpm test:integration
@@ -34,7 +34,7 @@ jobs:
           node-version: 18
       - uses: pnpm/action-setup@v4
         with:
-          version: 8.15
+          version: 9.15
       - run: pnpm install --filter with-remix
       - name: E2E tests
         run: pnpm test:e2e
@@ -49,7 +49,7 @@ jobs:
           node-version: 18
       - uses: pnpm/action-setup@v4
         with:
-          version: 8.15
+          version: 9.15
       - run: pnpm install --filter with-svelte
       - name: E2E tests
         run: pnpm test:e2e
@@ -64,7 +64,7 @@ jobs:
           node-version: 18
       - uses: pnpm/action-setup@v4
         with:
-          version: 8.15
+          version: 9.15
       - run: pnpm install --filter with-vue
       - name: Integration tests
         run: pnpm test:integration
@@ -82,7 +82,7 @@ jobs:
           node-version: 18
       - uses: pnpm/action-setup@v4
         with:
-          version: 8.15
+          version: 9.15
       - run: pnpm install --filter with-jest
       - run: pnpm test --filter with-jest
 
@@ -95,7 +95,7 @@ jobs:
           node-version: 18
       - uses: pnpm/action-setup@v4
         with:
-          version: 8.15
+          version: 9.15
       - run: pnpm install --filter with-jest-jsdom
       - run: pnpm test --filter with-jest-jsdom
 
@@ -108,7 +108,7 @@ jobs:
           node-version: 18
       - uses: pnpm/action-setup@v4
         with:
-          version: 8.15
+          version: 9.15
       - run: pnpm install --filter with-vitest
       - run: pnpm test --filter with-vitest
 
@@ -121,7 +121,7 @@ jobs:
           node-version: 18
       - uses: pnpm/action-setup@v4
         with:
-          version: 8.15
+          version: 9.15
       - run: pnpm install --filter with-vitest-cjs
       - run: pnpm test --filter with-vitest-cjs
 
@@ -134,7 +134,7 @@ jobs:
           node-version: 18
       - uses: pnpm/action-setup@v4
         with:
-          version: 8.15
+          version: 9.15
       - run: pnpm install --filter with-playwright
       - run: pnpm test --filter with-playwright
 
@@ -147,6 +147,6 @@ jobs:
           node-version: 18
       - uses: pnpm/action-setup@v4
         with:
-          version: 8.15
+          version: 9.15
       - run: pnpm install --filter with-karma
       - run: pnpm test --filter with-karma
