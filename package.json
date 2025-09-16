@@ -9,7 +9,7 @@
   "devDependencies": {
     "typescript": "^5.0.4"
   },
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "pnpm@9.15.3",
   "msw": {
     "workerDirectory": [
       "./examples/with-angular/src",
