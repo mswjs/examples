@@ -20,14 +20,14 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.33.0",
+    "@playwright/test": "^1.55.0",
     "@remix-run/dev": "^1.15.0",
     "@remix-run/eslint-config": "^1.15.0",
     "@types/react": "^18.0.35",
     "@types/react-dom": "^18.0.11",
     "eslint": "^8.38.0",
     "msw": "2.11.2",
-    "playwright": "^1.33.0",
+    "playwright": "^1.55.0",
     "typescript": "^4.9.5"
   },
   "engines": {

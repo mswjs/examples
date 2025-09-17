@@ -7,9 +7,11 @@
     <script>
       globalThis.process = { env: {} }
     </script>
-    <script type="module" src="/browser.js"></script>
     <script type="module">
-      await window.worker.start()
+      if (process.env.NODE_ENV === 'development') {
+        const { worker } = await import('./browser.js')
+        await worker.start()
+      }
 
       async function main() {
         fetch('/user')
