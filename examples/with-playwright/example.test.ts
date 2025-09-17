@@ -1,4 +1,5 @@
-import { test, expect } from '@playwright/test'
+import { expect } from '@playwright/test'
+import { test } from './playwright.utils.js'
 
 test('receives a mocked response to a REST API request', async ({ page }) => {
   await page.goto('/', { waitUntil: 'networkidle' })

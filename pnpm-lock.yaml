@@ -216,9 +216,12 @@ importers:
 
   examples/with-playwright:
     devDependencies:
+      '@msw/playwright':
+        specifier: ^0.4.2
+        version: 0.4.2(msw@2.11.2(@types/node@20.11.24)(typescript@5.3.3))
       '@playwright/test':
-        specifier: ^1.40.1
-        version: 1.40.1
+        specifier: ^1.55.0
+        version: 1.55.0
       '@web/dev-server':
         specifier: ^0.2.1
         version: 0.2.5
@@ -226,8 +229,8 @@ importers:
         specifier: 2.11.2
         version: 2.11.2(@types/node@20.11.24)(typescript@5.3.3)
       playwright:
-        specifier: ^1.33.0
-        version: 1.40.1
+        specifier: ^1.55.0
+        version: 1.55.0
       typescript:
         specifier: ^5.0.4
         version: 5.3.3
@@ -254,8 +257,8 @@ importers:
         version: 18.2.0(react@18.2.0)
     devDependencies:
       '@playwright/test':
-        specifier: ^1.33.0
-        version: 1.40.1
+        specifier: ^1.55.0
+        version: 1.55.0
       '@remix-run/dev':
         specifier: ^1.15.0
         version: 1.19.3(@remix-run/serve@1.19.3)(@types/node@20.11.24)(encoding@0.1.13)(less@4.1.3)(sass@1.58.1)(terser@5.26.0)(ts-node@10.9.2(@swc/core@1.3.103)(@types/node@20.11.24)(typescript@4.9.5))
@@ -275,8 +278,8 @@ importers:
         specifier: 2.11.2
         version: 2.11.2(@types/node@20.11.24)(typescript@4.9.5)
       playwright:
-        specifier: ^1.33.0
-        version: 1.40.1
+        specifier: ^1.55.0
+        version: 1.55.0
       typescript:
         specifier: ^4.9.5
         version: 4.9.5
@@ -284,8 +287,8 @@ importers:
   examples/with-svelte:
     devDependencies:
       '@playwright/test':
-        specifier: ^1.33.0
-        version: 1.40.1
+        specifier: ^1.55.0
+        version: 1.55.0
       '@sveltejs/adapter-auto':
         specifier: ^2.0.1
         version: 2.1.1(@sveltejs/kit@1.30.3(svelte@3.59.2)(vite@4.5.1(@types/node@18.19.7)(less@4.1.3)(sass@1.58.1)(terser@5.26.0)))
@@ -311,8 +314,8 @@ importers:
         specifier: 2.11.2
         version: 2.11.2(@types/node@18.19.7)(typescript@5.3.3)
       playwright:
-        specifier: ^1.33.0
-        version: 1.40.1
+        specifier: ^1.55.0
+        version: 1.55.0
       prettier:
         specifier: ^2.8.8
         version: 2.8.8
@@ -336,7 +339,7 @@ importers:
         version: 4.5.1(@types/node@18.19.7)(less@4.1.3)(sass@1.58.1)(terser@5.26.0)
       vitest:
         specifier: ^0.31.0
-        version: 0.31.4(jsdom@21.1.2)(less@4.1.3)(playwright@1.40.1)(sass@1.58.1)(terser@5.26.0)
+        version: 0.31.4(jsdom@21.1.2)(less@4.1.3)(playwright@1.55.0)(sass@1.58.1)(terser@5.26.0)
 
   examples/with-vitest:
     devDependencies:
@@ -351,7 +354,7 @@ importers:
         version: 5.3.3
       vitest:
         specifier: ^0.30.1
-        version: 0.30.1(jsdom@21.1.2)(less@4.1.3)(playwright@1.40.1)(sass@1.58.1)(terser@5.26.0)
+        version: 0.30.1(jsdom@21.1.2)(less@4.1.3)(playwright@1.55.0)(sass@1.58.1)(terser@5.26.0)
 
   examples/with-vitest-cjs:
     devDependencies:
@@ -366,7 +369,7 @@ importers:
         version: 5.3.3
       vitest:
         specifier: ^0.30.1
-        version: 0.30.1(jsdom@21.1.2)(less@4.1.3)(playwright@1.40.1)(sass@1.58.1)(terser@5.26.0)
+        version: 0.30.1(jsdom@21.1.2)(less@4.1.3)(playwright@1.55.0)(sass@1.58.1)(terser@5.26.0)
 
   examples/with-vue:
     dependencies:
@@ -412,7 +415,7 @@ importers:
         version: 4.5.1(@types/node@18.19.7)(less@4.1.3)(sass@1.58.1)(terser@5.26.0)
       vitest:
         specifier: ^0.29.1
-        version: 0.29.8(jsdom@21.1.2)(less@4.1.3)(playwright@1.40.1)(sass@1.58.1)(terser@5.26.0)
+        version: 0.29.8(jsdom@21.1.2)(less@4.1.3)(playwright@1.55.0)(sass@1.58.1)(terser@5.26.0)
       vue-tsc:
         specifier: ^1.2.0
         version: 1.8.27(typescript@4.8.4)
@@ -2118,6 +2121,12 @@ packages:
   '@leichtgewicht/ip-codec@2.0.4':
     resolution: {integrity: sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==}
 
+  '@msw/playwright@0.4.2':
+    resolution: {integrity: sha512-xJnHJBkxCF+wcusYAFTDTW1kiD+WVsuYMSxcqvaAbe/mhy73oxkcqUbsiqZsKPdNrXIQQtkCyX5vSP5ZaPUHdA==}
+    engines: {node: '>=20.0.0'}
+    peerDependencies:
+      msw: ^2.10.3
+
   '@mswjs/interceptors@0.39.6':
     resolution: {integrity: sha512-bndDP83naYYkfayr/qhBHMhk0YGwS1iv6vaEGcr0SQbO0IZtbOPqjKjds/WcG+bJA+1T5vCx6kprKOzn5Bg+Vw==}
     engines: {node: '>=18'}
@@ -2207,10 +2216,9 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@playwright/test@1.40.1':
-    resolution: {integrity: sha512-EaaawMTOeEItCRvfmkI9v6rBkF1svM8wjl/YPRrg2N2Wmp+4qJYkWtJsbew1szfKKDm6fPLy4YAanBhIlf9dWw==}
-    engines: {node: '>=16'}
-    deprecated: Please update to the latest version of Playwright to test up-to-date browsers.
+  '@playwright/test@1.55.0':
+    resolution: {integrity: sha512-04IXzPwHrW69XusN/SIdDdKZBzMfOT9UNT/YiJit/xpy2VuAoB8NHc8Aplb96zsWDddLnbkPL3TsmrS04ZU2xQ==}
+    engines: {node: '>=18'}
     hasBin: true
 
   '@polka/url@1.0.0-next.24':
@@ -6859,14 +6867,14 @@ packages:
   pkg-types@1.0.3:
     resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}
 
-  playwright-core@1.40.1:
-    resolution: {integrity: sha512-+hkOycxPiV534c4HhpfX6yrlawqVUzITRKwHAmYfmsVreltEl6fAZJ3DPfLMOODw0H3s1Itd6MDCWmP1fl/QvQ==}
-    engines: {node: '>=16'}
+  playwright-core@1.55.0:
+    resolution: {integrity: sha512-GvZs4vU3U5ro2nZpeiwyb0zuFaqb9sUiAJuyrWpcGouD8y9/HLgGbNRjIph7zU9D3hnPaisMl9zG9CgFi/biIg==}
+    engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.40.1:
-    resolution: {integrity: sha512-2eHI7IioIpQ0bS1Ovg/HszsN/XKNwEG1kbzSDDmADpclKc7CyqkHw7Mg2JCz/bbCxg25QUPcjksoMW7JcIFQmw==}
-    engines: {node: '>=16'}
+  playwright@1.55.0:
+    resolution: {integrity: sha512-sdCWStblvV1YU909Xqx0DhOjPZE4/5lJsIS84IfN9dAZfcl/CIZ5O8l3o0j7hPMjDvqoTF8ZUcc+i/GL5erstA==}
+    engines: {node: '>=18'}
     hasBin: true
 
   portfinder@1.0.32:
@@ -11120,6 +11128,12 @@ snapshots:
 
   '@leichtgewicht/ip-codec@2.0.4': {}
 
+  '@msw/playwright@0.4.2(msw@2.11.2(@types/node@20.11.24)(typescript@5.3.3))':
+    dependencies:
+      '@mswjs/interceptors': 0.39.6
+      msw: 2.11.2(@types/node@20.11.24)(typescript@5.3.3)
+      outvariant: 1.4.3
+
   '@mswjs/interceptors@0.39.6':
     dependencies:
       '@open-draft/deferred-promise': 2.2.0
@@ -11228,9 +11242,9 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@playwright/test@1.40.1':
+  '@playwright/test@1.55.0':
     dependencies:
-      playwright: 1.40.1
+      playwright: 1.55.0
 
   '@polka/url@1.0.0-next.24': {}
 
@@ -12864,7 +12878,7 @@ snapshots:
       caniuse-lite: 1.0.30001576
       fraction.js: 4.3.7
       normalize-range: 0.1.2
-      picocolors: 1.0.0
+      picocolors: 1.1.1
       postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
@@ -17665,11 +17679,11 @@ snapshots:
       mlly: 1.5.0
       pathe: 1.1.2
 
-  playwright-core@1.40.1: {}
+  playwright-core@1.55.0: {}
 
-  playwright@1.40.1:
+  playwright@1.55.0:
     dependencies:
-      playwright-core: 1.40.1
+      playwright-core: 1.55.0
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -19395,7 +19409,7 @@ snapshots:
       debug: 4.3.4(supports-color@8.1.1)
       mlly: 1.5.0
       pathe: 1.1.2
-      picocolors: 1.0.0
+      picocolors: 1.1.1
       vite: 4.5.1(@types/node@18.19.7)(less@4.1.3)(sass@1.58.1)(terser@5.26.0)
     transitivePeerDependencies:
       - '@types/node'
@@ -19435,7 +19449,7 @@ snapshots:
     optionalDependencies:
       vite: 4.5.1(@types/node@18.19.7)(less@4.1.3)(sass@1.58.1)(terser@5.26.0)
 
-  vitest@0.29.8(jsdom@21.1.2)(less@4.1.3)(playwright@1.40.1)(sass@1.58.1)(terser@5.26.0):
+  vitest@0.29.8(jsdom@21.1.2)(less@4.1.3)(playwright@1.55.0)(sass@1.58.1)(terser@5.26.0):
     dependencies:
       '@types/chai': 4.3.11
       '@types/chai-subset': 1.3.5
@@ -19463,7 +19477,7 @@ snapshots:
       why-is-node-running: 2.2.2
     optionalDependencies:
       jsdom: 21.1.2
-      playwright: 1.40.1
+      playwright: 1.55.0
     transitivePeerDependencies:
       - less
       - lightningcss
@@ -19473,7 +19487,7 @@ snapshots:
       - supports-color
       - terser
 
-  vitest@0.30.1(jsdom@21.1.2)(less@4.1.3)(playwright@1.40.1)(sass@1.58.1)(terser@5.26.0):
+  vitest@0.30.1(jsdom@21.1.2)(less@4.1.3)(playwright@1.55.0)(sass@1.58.1)(terser@5.26.0):
     dependencies:
       '@types/chai': 4.3.11
       '@types/chai-subset': 1.3.5
@@ -19503,7 +19517,7 @@ snapshots:
       why-is-node-running: 2.2.2
     optionalDependencies:
       jsdom: 21.1.2
-      playwright: 1.40.1
+      playwright: 1.55.0
     transitivePeerDependencies:
       - less
       - lightningcss
@@ -19513,7 +19527,7 @@ snapshots:
       - supports-color
       - terser
 
-  vitest@0.31.4(jsdom@21.1.2)(less@4.1.3)(playwright@1.40.1)(sass@1.58.1)(terser@5.26.0):
+  vitest@0.31.4(jsdom@21.1.2)(less@4.1.3)(playwright@1.55.0)(sass@1.58.1)(terser@5.26.0):
     dependencies:
       '@types/chai': 4.3.11
       '@types/chai-subset': 1.3.5
@@ -19532,7 +19546,7 @@ snapshots:
       local-pkg: 0.4.3
       magic-string: 0.30.5
       pathe: 1.1.2
-      picocolors: 1.0.0
+      picocolors: 1.1.1
       std-env: 3.7.0
       strip-literal: 1.3.0
       tinybench: 2.5.1
@@ -19542,7 +19556,7 @@ snapshots:
       why-is-node-running: 2.2.2
     optionalDependencies:
       jsdom: 21.1.2
-      playwright: 1.40.1
+      playwright: 1.55.0
     transitivePeerDependencies:
       - less
       - lightningcss
